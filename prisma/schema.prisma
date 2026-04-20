@@ -1,0 +1,123 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Household {
+  id            String    @id @default(cuid())
+  householdCode String    @unique
+  createdAt     DateTime  @default(now())
+  learners      Learner[]
+}
+
+model Learner {
+  id                String             @id @default(cuid())
+  householdId       String
+  displayName       String?
+  createdAt         DateTime           @default(now())
+  household         Household          @relation(fields: [householdId], references: [id], onDelete: Cascade)
+  dailyPlans        DailyPlan[]
+  studyRecords      StudyRecord[]
+  quizAttempts      QuizAttempt[]
+  offlineOperations OfflineOperation[]
+}
+
+model Word {
+  id             String          @id @default(cuid())
+  lemma          String          @unique
+  pos            String
+  cnDef          String
+  difficulty     Int?
+  rootAffix      String?
+  variants       WordVariant[]
+  themedExamples ThemedExample[]
+  studyRecords   StudyRecord[]
+  quizAttempts   QuizAttempt[]
+}
+
+model WordVariant {
+  id          String   @id @default(cuid())
+  surfaceForm String   @unique
+  wordId      String
+  word        Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+}
+
+model ThemedExample {
+  id         String   @id @default(cuid())
+  wordId     String
+  theme      ThemeId
+  enSentence String
+  cnSentence String
+  createdAt  DateTime @default(now())
+  word       Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
+
+model DailyPlan {
+  id          String   @id @default(cuid())
+  learnerId   String
+  date        DateTime
+  targetCount Int      @default(50)
+  theme       ThemeId
+  isCompleted Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  learner     Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+
+  @@unique([learnerId, date])
+}
+
+model StudyRecord {
+  id          String      @id @default(cuid())
+  learnerId   String
+  wordId      String
+  status      StudyStatus @default(new_word)
+  masteredAt  DateTime?
+  reviewDueAt DateTime?
+  updatedAt   DateTime    @updatedAt
+  learner     Learner     @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  word        Word        @relation(fields: [wordId], references: [id], onDelete: Cascade)
+
+  @@unique([learnerId, wordId])
+}
+
+model QuizAttempt {
+  id        String   @id @default(cuid())
+  learnerId String
+  quizType  QuizType
+  wordId    String
+  isCorrect Boolean
+  attemptAt DateTime @default(now())
+  learner   Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  word      Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+}
+
+model OfflineOperation {
+  id         String   @id @default(cuid())
+  learnerId  String
+  clientOpId String   @unique
+  opType     String
+  payload    Json
+  occurredAt DateTime
+  syncedAt   DateTime?
+  learner    Learner  @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+}
+
+enum ThemeId {
+  hp_slytherin
+  reverse_1999
+}
+
+enum StudyStatus {
+  new_word
+  remembered
+  forgotten
+}
+
+enum QuizType {
+  cloze
+  tf
+}

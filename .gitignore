@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# wordbank enrichment (single-instance lock)
+data/imports/.enrich-word-details.lock
