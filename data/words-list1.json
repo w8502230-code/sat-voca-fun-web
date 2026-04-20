@@ -1,0 +1,2002 @@
+[
+  {
+    "lemma": "thoughtful",
+    "pos": "adj.",
+    "cnDef": "体贴的；深思熟虑的",
+    "enDef": "showing care for others or careful consideration",
+    "enExample": "The thoughtful student reviewed each word before moving to the next card.",
+    "zhExample": "这位体贴且深思熟虑的学生在进入下一张卡片前会先复习每个单词。",
+    "enExampleSat": "The thoughtful student reviewed each word before moving to the next card.",
+    "zhExampleSat": "这位体贴且深思熟虑的学生在进入下一张卡片前会先复习每个单词。",
+    "enExampleTheme": "During the house briefing, Draco gave a thoughtful response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个thoughtful的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a thoughtful response that shifted the team's plan.",
+      "reverse_1999": "Her thoughtful analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个thoughtful的回应，改变了团队计划。",
+      "reverse_1999": "她thoughtful的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "thoughtfulness",
+    "pos": "n.",
+    "cnDef": "体贴；考虑周到",
+    "enDef": "the quality of being considerate and attentive",
+    "enExample": "Her thoughtfulness made group study sessions more supportive and effective.",
+    "zhExample": "她的体贴让小组学习更有支持性，也更有效率。",
+    "enExampleSat": "Her thoughtfulness made group study sessions more supportive and effective.",
+    "zhExampleSat": "她的体贴让小组学习更有支持性，也更有效率。",
+    "enExampleTheme": "Professor Snape highlighted \"thoughtfulness\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“thoughtfulness”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"thoughtfulness\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"thoughtfulness\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“thoughtfulness”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“thoughtfulness”。"
+    }
+  },
+  {
+    "lemma": "renew",
+    "pos": "v.",
+    "cnDef": "更新；恢复",
+    "enDef": "to make something active, fresh, or effective again",
+    "enExample": "She renewed her motivation by completing a short quiz after studying.",
+    "zhExample": "她通过在学习后完成一个小测验来重新激发动力。",
+    "enExampleSat": "She renewed her motivation by completing a short quiz after studying.",
+    "zhExampleSat": "她通过在学习后完成一个小测验来重新激发动力。",
+    "enExampleTheme": "The Slytherin team learned to renew quickly before the final duel.",
+    "zhExampleTheme": "斯莱特林队在最终对决前学会了迅速renew。",
+    "themedExamples": {
+      "hp_slytherin": "The Slytherin team learned to renew quickly before the final duel.",
+      "reverse_1999": "Foundation analysts renew the records again after the storm rewound the hour."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯莱特林队在最终对决前学会了迅速renew。",
+      "reverse_1999": "在风暴把时间回卷后，基金会分析员再次renew了档案。"
+    }
+  },
+  {
+    "lemma": "renewable",
+    "pos": "adj.",
+    "cnDef": "可再生的；可持续利用的",
+    "enDef": "able to be replaced or naturally replenished",
+    "enExample": "The article discussed renewable energy as a long-term solution.",
+    "zhExample": "这篇文章讨论了可再生能源作为长期解决方案。",
+    "enExampleSat": "The article discussed renewable energy as a long-term solution.",
+    "zhExampleSat": "这篇文章讨论了可再生能源作为长期解决方案。",
+    "enExampleTheme": "The prefect praised her renewable judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的renewable判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her renewable judgment in the potion challenge.",
+      "reverse_1999": "The team needed a renewable decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的renewable判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个renewable的决策。"
+    }
+  },
+  {
+    "lemma": "renewal",
+    "pos": "n.",
+    "cnDef": "更新；恢复；重启",
+    "enDef": "the act of making something new or active again",
+    "enExample": "Daily practice led to a renewal of his confidence in vocabulary questions.",
+    "zhExample": "每日练习让他在词汇题上的信心重新恢复。",
+    "enExampleSat": "Daily practice led to a renewal of his confidence in vocabulary questions.",
+    "zhExampleSat": "每日练习让他在词汇题上的信心重新恢复。",
+    "enExampleTheme": "In the Slytherin archives, the term \"renewal\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“renewal”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"renewal\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"renewal\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“renewal”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“renewal”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "anew",
+    "pos": "adv.",
+    "cnDef": "重新；再一次",
+    "enDef": "again in a new or different way",
+    "enExample": "After reviewing mistakes, she began the exercise anew with better strategy.",
+    "zhExample": "复盘错题后，她以更好的策略重新开始练习。",
+    "enExampleSat": "After reviewing mistakes, she began the exercise anew with better strategy.",
+    "zhExampleSat": "复盘错题后，她以更好的策略重新开始练习。",
+    "enExampleTheme": "The study journal used \"anew\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“anew”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"anew\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"anew\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“anew”来总结今天任务结果。",
+      "reverse_1999": "笔记把“anew”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "want",
+    "pos": "v.",
+    "cnDef": "想要；需要",
+    "enDef": "to desire or need something",
+    "enExample": "Many students want a faster way to memorize SAT words effectively.",
+    "zhExample": "许多学生想要一种更高效记忆SAT单词的方法。",
+    "enExampleSat": "Many students want a faster way to memorize SAT words effectively.",
+    "zhExampleSat": "许多学生想要一种更高效记忆SAT单词的方法。",
+    "enExampleTheme": "To pass the midnight task, students had to want the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须want地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to want the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to want every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须want地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序want每条线索。"
+    }
+  },
+  {
+    "lemma": "unwanted",
+    "pos": "adj.",
+    "cnDef": "不需要的；不受欢迎的",
+    "enDef": "not desired or welcome",
+    "enExample": "The app helps remove unwanted distractions during study time.",
+    "zhExample": "这个应用帮助减少学习时不需要的干扰。",
+    "enExampleSat": "The app helps remove unwanted distractions during study time.",
+    "zhExampleSat": "这个应用帮助减少学习时不需要的干扰。",
+    "enExampleTheme": "During the house briefing, Draco gave a unwanted response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个unwanted的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a unwanted response that shifted the team's plan.",
+      "reverse_1999": "Her unwanted analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个unwanted的回应，改变了团队计划。",
+      "reverse_1999": "她unwanted的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "mislead",
+    "pos": "v.",
+    "cnDef": "误导",
+    "enDef": "to cause someone to believe something false",
+    "enExample": "A vague definition can mislead learners about the word's real usage.",
+    "zhExample": "模糊的释义会误导学习者对单词真实用法的理解。",
+    "enExampleSat": "A vague definition can mislead learners about the word's real usage.",
+    "zhExampleSat": "模糊的释义会误导学习者对单词真实用法的理解。",
+    "enExampleTheme": "The Slytherin team learned to mislead quickly before the final duel.",
+    "zhExampleTheme": "斯莱特林队在最终对决前学会了迅速mislead。",
+    "themedExamples": {
+      "hp_slytherin": "The Slytherin team learned to mislead quickly before the final duel.",
+      "reverse_1999": "Foundation analysts mislead the records again after the storm rewound the hour."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯莱特林队在最终对决前学会了迅速mislead。",
+      "reverse_1999": "在风暴把时间回卷后，基金会分析员再次mislead了档案。"
+    }
+  },
+  {
+    "lemma": "misleading",
+    "pos": "adj.",
+    "cnDef": "误导性的",
+    "enDef": "giving the wrong idea or impression",
+    "enExample": "The headline was misleading, so we checked the full context.",
+    "zhExample": "这个标题有误导性，所以我们查看了完整语境。",
+    "enExampleSat": "The headline was misleading, so we checked the full context.",
+    "zhExampleSat": "这个标题有误导性，所以我们查看了完整语境。",
+    "enExampleTheme": "The prefect praised her misleading judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的misleading判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her misleading judgment in the potion challenge.",
+      "reverse_1999": "The team needed a misleading decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的misleading判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个misleading的决策。"
+    }
+  },
+  {
+    "lemma": "hold",
+    "pos": "v.",
+    "cnDef": "握住；保持；举行",
+    "enDef": "to keep, maintain, or have in one's possession",
+    "enExample": "Hold your focus for ten words, then take a quick review break.",
+    "zhExample": "先专注记十个词，然后进行一次快速复习。",
+    "enExampleSat": "Hold your focus for ten words, then take a quick review break.",
+    "zhExampleSat": "先专注记十个词，然后进行一次快速复习。",
+    "enExampleTheme": "The Slytherin team learned to hold quickly before the final duel.",
+    "zhExampleTheme": "斯莱特林队在最终对决前学会了迅速hold。",
+    "themedExamples": {
+      "hp_slytherin": "The Slytherin team learned to hold quickly before the final duel.",
+      "reverse_1999": "Foundation analysts hold the records again after the storm rewound the hour."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯莱特林队在最终对决前学会了迅速hold。",
+      "reverse_1999": "在风暴把时间回卷后，基金会分析员再次hold了档案。"
+    }
+  },
+  {
+    "lemma": "uphold",
+    "pos": "v.",
+    "cnDef": "维护；支持；坚持",
+    "enDef": "to support or maintain a principle or decision",
+    "enExample": "Good teachers uphold high standards while encouraging progress.",
+    "zhExample": "优秀的老师在鼓励进步的同时也坚持高标准。",
+    "enExampleSat": "Good teachers uphold high standards while encouraging progress.",
+    "zhExampleSat": "优秀的老师在鼓励进步的同时也坚持高标准。",
+    "enExampleTheme": "To pass the midnight task, students had to uphold the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须uphold地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to uphold the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to uphold every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须uphold地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序uphold每条线索。"
+    }
+  },
+  {
+    "lemma": "generalization",
+    "pos": "n.",
+    "cnDef": "概括；泛化",
+    "enDef": "a broad statement based on limited examples",
+    "enExample": "Avoid generalization when a word has multiple SAT meanings.",
+    "zhExample": "当单词有多个SAT义项时，要避免过度概括。",
+    "enExampleSat": "Avoid generalization when a word has multiple SAT meanings.",
+    "zhExampleSat": "当单词有多个SAT义项时，要避免过度概括。",
+    "enExampleTheme": "In the Slytherin archives, the term \"generalization\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“generalization”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"generalization\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"generalization\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“generalization”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“generalization”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "term",
+    "pos": "n.",
+    "cnDef": "术语；学期；条款",
+    "enDef": "a word or expression with a specific meaning",
+    "enExample": "In academic writing, each technical term should be used precisely.",
+    "zhExample": "在学术写作中，每个术语都应被精确使用。",
+    "enExampleSat": "In academic writing, each technical term should be used precisely.",
+    "zhExampleSat": "在学术写作中，每个术语都应被精确使用。",
+    "enExampleTheme": "In the Slytherin archives, the term \"term\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“term”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"term\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"term\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“term”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“term”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "employ",
+    "pos": "v.",
+    "cnDef": "使用；雇用",
+    "enDef": "to make use of something for a purpose",
+    "enExample": "Skilled readers employ context clues to infer unknown vocabulary.",
+    "zhExample": "熟练的读者会利用上下文线索推断生词。",
+    "enExampleSat": "Skilled readers employ context clues to infer unknown vocabulary.",
+    "zhExampleSat": "熟练的读者会利用上下文线索推断生词。",
+    "enExampleTheme": "To pass the midnight task, students had to employ the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须employ地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to employ the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to employ every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须employ地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序employ每条线索。"
+    }
+  },
+  {
+    "lemma": "continuity",
+    "pos": "n.",
+    "cnDef": "连续性；连贯性",
+    "enDef": "the state of being continuous and connected",
+    "enExample": "Continuity in daily practice improves long-term retention.",
+    "zhExample": "日常练习的连续性可以提升长期记忆保持。",
+    "enExampleSat": "Continuity in daily practice improves long-term retention.",
+    "zhExampleSat": "日常练习的连续性可以提升长期记忆保持。",
+    "enExampleTheme": "In the Slytherin archives, the term \"continuity\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“continuity”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"continuity\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"continuity\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“continuity”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“continuity”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "agreeable",
+    "pos": "adj.",
+    "cnDef": "令人愉快的；同意的",
+    "enDef": "pleasant or willing to agree",
+    "enExample": "The mentor offered an agreeable plan for balanced study and rest.",
+    "zhExample": "导师给出了一个令人愉快且平衡学习与休息的计划。",
+    "enExampleSat": "The mentor offered an agreeable plan for balanced study and rest.",
+    "zhExampleSat": "导师给出了一个令人愉快且平衡学习与休息的计划。",
+    "enExampleTheme": "During the house briefing, Draco gave a agreeable response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个agreeable的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a agreeable response that shifted the team's plan.",
+      "reverse_1999": "Her agreeable analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个agreeable的回应，改变了团队计划。",
+      "reverse_1999": "她agreeable的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "disagreeable",
+    "pos": "adj.",
+    "cnDef": "令人不快的；不合意的",
+    "enDef": "unpleasant or not pleasing",
+    "enExample": "Noise in the hallway created a disagreeable study environment.",
+    "zhExample": "走廊噪音造成了令人不快的学习环境。",
+    "enExampleSat": "Noise in the hallway created a disagreeable study environment.",
+    "zhExampleSat": "走廊噪音造成了令人不快的学习环境。",
+    "enExampleTheme": "During the house briefing, Draco gave a disagreeable response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个disagreeable的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a disagreeable response that shifted the team's plan.",
+      "reverse_1999": "Her disagreeable analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个disagreeable的回应，改变了团队计划。",
+      "reverse_1999": "她disagreeable的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "nature",
+    "pos": "n.",
+    "cnDef": "本质；自然",
+    "enDef": "the essential quality of something or the physical world",
+    "enExample": "Understanding the nature of a word helps you choose the correct meaning.",
+    "zhExample": "理解单词本质有助于你选出正确词义。",
+    "enExampleSat": "Understanding the nature of a word helps you choose the correct meaning.",
+    "zhExampleSat": "理解单词本质有助于你选出正确词义。",
+    "enExampleTheme": "Professor Snape highlighted \"nature\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“nature”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"nature\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"nature\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“nature”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“nature”。"
+    }
+  },
+  {
+    "lemma": "good-natured",
+    "pos": "adj.",
+    "cnDef": "和蔼的；脾气好的",
+    "enDef": "kind and cheerful in character",
+    "enExample": "Her good-natured feedback made difficult tasks feel manageable.",
+    "zhExample": "她和蔼的反馈让困难任务变得可应对。",
+    "enExampleSat": "Her good-natured feedback made difficult tasks feel manageable.",
+    "zhExampleSat": "她和蔼的反馈让困难任务变得可应对。",
+    "enExampleTheme": "The prefect praised her good-natured judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的good-natured判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her good-natured judgment in the potion challenge.",
+      "reverse_1999": "The team needed a good-natured decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的good-natured判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个good-natured的决策。"
+    }
+  },
+  {
+    "lemma": "naturalistic",
+    "pos": "adj.",
+    "cnDef": "自然主义的；逼真的",
+    "enDef": "realistic in style, especially in art or writing",
+    "enExample": "The passage gave a naturalistic description of urban life.",
+    "zhExample": "这段文章对城市生活进行了自然主义式描写。",
+    "enExampleSat": "The passage gave a naturalistic description of urban life.",
+    "zhExampleSat": "这段文章对城市生活进行了自然主义式描写。",
+    "enExampleTheme": "The prefect praised her naturalistic judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的naturalistic判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her naturalistic judgment in the potion challenge.",
+      "reverse_1999": "The team needed a naturalistic decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的naturalistic判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个naturalistic的决策。"
+    }
+  },
+  {
+    "lemma": "naturalism",
+    "pos": "n.",
+    "cnDef": "自然主义；自然观",
+    "enDef": "a style emphasizing realistic detail or a philosophical view of nature",
+    "enExample": "The painting class explored naturalism through close observation.",
+    "zhExample": "绘画课通过细致观察来探索自然主义。",
+    "enExampleSat": "The painting class explored naturalism through close observation.",
+    "zhExampleSat": "绘画课通过细致观察来探索自然主义。",
+    "enExampleTheme": "In the Slytherin archives, the term \"naturalism\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“naturalism”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"naturalism\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"naturalism\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“naturalism”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“naturalism”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "rate",
+    "pos": "n./v.",
+    "cnDef": "比率；速度；评价",
+    "enDef": "a measure, speed, or to evaluate something",
+    "enExample": "At her current rate, she can master fifty words each day.",
+    "zhExample": "按她目前的速度，她每天可以掌握五十个词。",
+    "enExampleSat": "At her current rate, she can master fifty words each day.",
+    "zhExampleSat": "按她目前的速度，她每天可以掌握五十个词。",
+    "enExampleTheme": "In the Slytherin archives, the term \"rate\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“rate”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"rate\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"rate\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“rate”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“rate”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "rating",
+    "pos": "n.",
+    "cnDef": "评分；等级",
+    "enDef": "a score or level of quality",
+    "enExample": "The teacher gave the essay a high rating for clarity.",
+    "zhExample": "老师因文章表达清晰给了高评分。",
+    "enExampleSat": "The teacher gave the essay a high rating for clarity.",
+    "zhExampleSat": "老师因文章表达清晰给了高评分。",
+    "enExampleTheme": "Professor Snape highlighted \"rating\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“rating”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"rating\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"rating\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“rating”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“rating”。"
+    }
+  },
+  {
+    "lemma": "suggest",
+    "pos": "v.",
+    "cnDef": "建议；暗示",
+    "enDef": "to offer an idea or indicate indirectly",
+    "enExample": "Data suggest that spaced review is more effective than cramming.",
+    "zhExample": "数据显示间隔复习比突击背诵更有效。",
+    "enExampleSat": "Data suggest that spaced review is more effective than cramming.",
+    "zhExampleSat": "数据显示间隔复习比突击背诵更有效。",
+    "enExampleTheme": "To pass the midnight task, students had to suggest the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须suggest地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to suggest the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to suggest every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须suggest地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序suggest每条线索。"
+    }
+  },
+  {
+    "lemma": "suggestion",
+    "pos": "n.",
+    "cnDef": "建议",
+    "enDef": "an idea proposed for consideration",
+    "enExample": "His suggestion to review errors immediately worked well.",
+    "zhExample": "他提出的“立即复盘错题”的建议效果很好。",
+    "enExampleSat": "His suggestion to review errors immediately worked well.",
+    "zhExampleSat": "他提出的“立即复盘错题”的建议效果很好。",
+    "enExampleTheme": "In the Slytherin archives, the term \"suggestion\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“suggestion”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"suggestion\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"suggestion\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“suggestion”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“suggestion”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "suggestive",
+    "pos": "adj.",
+    "cnDef": "暗示性的；启发联想的",
+    "enDef": "indicating an idea indirectly",
+    "enExample": "The title was suggestive of conflict but did not reveal details.",
+    "zhExample": "这个标题暗示了冲突，但没有透露细节。",
+    "enExampleSat": "The title was suggestive of conflict but did not reveal details.",
+    "zhExampleSat": "这个标题暗示了冲突，但没有透露细节。",
+    "enExampleTheme": "During the house briefing, Draco gave a suggestive response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个suggestive的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a suggestive response that shifted the team's plan.",
+      "reverse_1999": "Her suggestive analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个suggestive的回应，改变了团队计划。",
+      "reverse_1999": "她suggestive的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "allow",
+    "pos": "v.",
+    "cnDef": "允许；使能够",
+    "enDef": "to permit or make possible",
+    "enExample": "The interface allows students to switch quickly between cards.",
+    "zhExample": "这个界面允许学生在卡片间快速切换。",
+    "enExampleSat": "The interface allows students to switch quickly between cards.",
+    "zhExampleSat": "这个界面允许学生在卡片间快速切换。",
+    "enExampleTheme": "The Slytherin team learned to allow quickly before the final duel.",
+    "zhExampleTheme": "斯莱特林队在最终对决前学会了迅速allow。",
+    "themedExamples": {
+      "hp_slytherin": "The Slytherin team learned to allow quickly before the final duel.",
+      "reverse_1999": "Foundation analysts allow the records again after the storm rewound the hour."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯莱特林队在最终对决前学会了迅速allow。",
+      "reverse_1999": "在风暴把时间回卷后，基金会分析员再次allow了档案。"
+    }
+  },
+  {
+    "lemma": "allow for",
+    "pos": "phr.",
+    "cnDef": "考虑到；为…留余地",
+    "enDef": "to take into consideration",
+    "enExample": "A realistic plan should allow for short rest periods.",
+    "zhExample": "一个现实的计划应把短暂休息考虑在内。",
+    "enExampleSat": "A realistic plan should allow for short rest periods.",
+    "zhExampleSat": "一个现实的计划应把短暂休息考虑在内。",
+    "enExampleTheme": "In the Slytherin chamber, \"allow for\" came up in a strategy discussion.",
+    "zhExampleTheme": "在斯莱特林密室中，“allow for”出现在一次策略讨论里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin chamber, \"allow for\" came up in a strategy discussion.",
+      "reverse_1999": "In the Foundation archive, \"allow for\" appeared in a time-anomaly report."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林密室中，“allow for”出现在一次策略讨论里。",
+      "reverse_1999": "在基金会档案中，“allow for”出现在一份时间异常报告里。"
+    }
+  },
+  {
+    "lemma": "concern",
+    "pos": "n./v.",
+    "cnDef": "担忧；涉及",
+    "enDef": "a worry, or to relate to something",
+    "enExample": "One major concern is how to keep motivation over time.",
+    "zhExample": "一个主要担忧是如何长期保持动力。",
+    "enExampleSat": "One major concern is how to keep motivation over time.",
+    "zhExampleSat": "一个主要担忧是如何长期保持动力。",
+    "enExampleTheme": "In the Slytherin archives, the term \"concern\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“concern”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"concern\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"concern\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“concern”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“concern”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "concerned",
+    "pos": "adj.",
+    "cnDef": "担心的；相关的",
+    "enDef": "worried or involved in a matter",
+    "enExample": "Parents were concerned about excessive screen time.",
+    "zhExample": "家长对过多屏幕时间表示担忧。",
+    "enExampleSat": "Parents were concerned about excessive screen time.",
+    "zhExampleSat": "家长对过多屏幕时间表示担忧。",
+    "enExampleTheme": "The prefect praised her concerned judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的concerned判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her concerned judgment in the potion challenge.",
+      "reverse_1999": "The team needed a concerned decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的concerned判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个concerned的决策。"
+    }
+  },
+  {
+    "lemma": "concerning",
+    "pos": "prep./adj.",
+    "cnDef": "关于；令人担忧的",
+    "enDef": "about, or causing worry",
+    "enExample": "The report concerning memory habits offered practical advice.",
+    "zhExample": "这份关于记忆习惯的报告给出了实用建议。",
+    "enExampleSat": "The report concerning memory habits offered practical advice.",
+    "zhExampleSat": "这份关于记忆习惯的报告给出了实用建议。",
+    "enExampleTheme": "In the Slytherin chamber, \"concerning\" came up in a strategy discussion.",
+    "zhExampleTheme": "在斯莱特林密室中，“concerning”出现在一次策略讨论里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin chamber, \"concerning\" came up in a strategy discussion.",
+      "reverse_1999": "In the Foundation archive, \"concerning\" appeared in a time-anomaly report."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林密室中，“concerning”出现在一次策略讨论里。",
+      "reverse_1999": "在基金会档案中，“concerning”出现在一份时间异常报告里。"
+    }
+  },
+  {
+    "lemma": "actualization",
+    "pos": "n.",
+    "cnDef": "实现；现实化",
+    "enDef": "the process of making potential real",
+    "enExample": "Regular practice supports the actualization of learning goals.",
+    "zhExample": "规律练习有助于学习目标的实现。",
+    "enExampleSat": "Regular practice supports the actualization of learning goals.",
+    "zhExampleSat": "规律练习有助于学习目标的实现。",
+    "enExampleTheme": "In the Slytherin archives, the term \"actualization\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“actualization”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"actualization\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"actualization\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“actualization”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“actualization”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "in actuality",
+    "pos": "phr.",
+    "cnDef": "事实上",
+    "enDef": "in fact; actually",
+    "enExample": "In actuality, small daily efforts often beat last-minute review.",
+    "zhExample": "事实上，每天少量努力通常胜过临时突击。",
+    "enExampleSat": "In actuality, small daily efforts often beat last-minute review.",
+    "zhExampleSat": "事实上，每天少量努力通常胜过临时突击。",
+    "enExampleTheme": "The study journal used \"in actuality\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“in actuality”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"in actuality\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"in actuality\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“in actuality”来总结今天任务结果。",
+      "reverse_1999": "笔记把“in actuality”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "artistic",
+    "pos": "adj.",
+    "cnDef": "艺术的；有艺术感的",
+    "enDef": "related to art or showing creative skill",
+    "enExample": "The app uses artistic themes to make vocabulary learning engaging.",
+    "zhExample": "该应用采用艺术化主题让词汇学习更有吸引力。",
+    "enExampleSat": "The app uses artistic themes to make vocabulary learning engaging.",
+    "zhExampleSat": "该应用采用艺术化主题让词汇学习更有吸引力。",
+    "enExampleTheme": "The prefect praised her artistic judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的artistic判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her artistic judgment in the potion challenge.",
+      "reverse_1999": "The team needed a artistic decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的artistic判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个artistic的决策。"
+    }
+  },
+  {
+    "lemma": "artfully",
+    "pos": "adv.",
+    "cnDef": "巧妙地；有技巧地",
+    "enDef": "in a skillful and creative way",
+    "enExample": "She artfully connected each new word to a vivid scene.",
+    "zhExample": "她巧妙地把每个新词与生动画面关联起来。",
+    "enExampleSat": "She artfully connected each new word to a vivid scene.",
+    "zhExampleSat": "她巧妙地把每个新词与生动画面关联起来。",
+    "enExampleTheme": "The study journal used \"artfully\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“artfully”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"artfully\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"artfully\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“artfully”来总结今天任务结果。",
+      "reverse_1999": "笔记把“artfully”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "artistry",
+    "pos": "n.",
+    "cnDef": "艺术技巧；艺术表现力",
+    "enDef": "creative or artistic skill",
+    "enExample": "The writer's artistry made the passage memorable.",
+    "zhExample": "作者的艺术表现力让这段文字令人难忘。",
+    "enExampleSat": "The writer's artistry made the passage memorable.",
+    "zhExampleSat": "作者的艺术表现力让这段文字令人难忘。",
+    "enExampleTheme": "In the Slytherin archives, the term \"artistry\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“artistry”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"artistry\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"artistry\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“artistry”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“artistry”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "artisan",
+    "pos": "n.",
+    "cnDef": "工匠",
+    "enDef": "a skilled craft worker",
+    "enExample": "The museum displayed tools made by a local artisan.",
+    "zhExample": "博物馆展出了本地工匠制作的工具。",
+    "enExampleSat": "The museum displayed tools made by a local artisan.",
+    "zhExampleSat": "博物馆展出了本地工匠制作的工具。",
+    "enExampleTheme": "In the Slytherin archives, the term \"artisan\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“artisan”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"artisan\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"artisan\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“artisan”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“artisan”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "artifact",
+    "pos": "n.",
+    "cnDef": "人工制品；文物",
+    "enDef": "an object made by humans, often of historical interest",
+    "enExample": "The archaeologist identified the clay bowl as an ancient artifact.",
+    "zhExample": "考古学家确认这个陶碗是一件古代人工制品。",
+    "enExampleSat": "The archaeologist identified the clay bowl as an ancient artifact.",
+    "zhExampleSat": "考古学家确认这个陶碗是一件古代人工制品。",
+    "enExampleTheme": "In the Slytherin archives, the term \"artifact\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“artifact”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"artifact\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"artifact\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“artifact”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“artifact”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "figure",
+    "pos": "n./v.",
+    "cnDef": "数字；人物；认为",
+    "enDef": "a number or person, or to understand",
+    "enExample": "Can you figure out which meaning best fits the sentence?",
+    "zhExample": "你能判断出哪个词义最符合这个句子吗？",
+    "enExampleSat": "Can you figure out which meaning best fits the sentence?",
+    "zhExampleSat": "你能判断出哪个词义最符合这个句子吗？",
+    "enExampleTheme": "In the Slytherin archives, the term \"figure\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“figure”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"figure\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"figure\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“figure”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“figure”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "note",
+    "pos": "n./v.",
+    "cnDef": "笔记；注意到",
+    "enDef": "a written record, or to notice",
+    "enExample": "Please note the difference between formal and informal usage.",
+    "zhExample": "请注意正式与非正式用法的区别。",
+    "enExampleSat": "Please note the difference between formal and informal usage.",
+    "zhExampleSat": "请注意正式与非正式用法的区别。",
+    "enExampleTheme": "In the Slytherin archives, the term \"note\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“note”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"note\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"note\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“note”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“note”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "notable",
+    "pos": "adj.",
+    "cnDef": "值得注意的；显著的",
+    "enDef": "important enough to be noticed",
+    "enExample": "She made notable progress after one week of consistent review.",
+    "zhExample": "在一周持续复习后，她取得了显著进步。",
+    "enExampleSat": "She made notable progress after one week of consistent review.",
+    "zhExampleSat": "在一周持续复习后，她取得了显著进步。",
+    "enExampleTheme": "The prefect praised her notable judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的notable判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her notable judgment in the potion challenge.",
+      "reverse_1999": "The team needed a notable decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的notable判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个notable的决策。"
+    }
+  },
+  {
+    "lemma": "notably",
+    "pos": "adv.",
+    "cnDef": "显著地；尤其",
+    "enDef": "in a noticeable way; especially",
+    "enExample": "The second round was notably easier than the first.",
+    "zhExample": "第二轮明显比第一轮更容易。",
+    "enExampleSat": "The second round was notably easier than the first.",
+    "zhExampleSat": "第二轮明显比第一轮更容易。",
+    "enExampleTheme": "The study journal used \"notably\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“notably”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"notably\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"notably\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“notably”来总结今天任务结果。",
+      "reverse_1999": "笔记把“notably”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "remembrance",
+    "pos": "n.",
+    "cnDef": "回忆；纪念",
+    "enDef": "the act of remembering or honoring",
+    "enExample": "The ceremony was held in remembrance of the school's founder.",
+    "zhExample": "这场仪式是为纪念学校创始人而举行的。",
+    "enExampleSat": "The ceremony was held in remembrance of the school's founder.",
+    "zhExampleSat": "这场仪式是为纪念学校创始人而举行的。",
+    "enExampleTheme": "Professor Snape highlighted \"remembrance\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“remembrance”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"remembrance\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"remembrance\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“remembrance”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“remembrance”。"
+    }
+  },
+  {
+    "lemma": "ground",
+    "pos": "n./v.",
+    "cnDef": "基础；使接地；使有根据",
+    "enDef": "a basis or foundation; to base firmly",
+    "enExample": "The explanation grounded the abstract concept in daily examples.",
+    "zhExample": "这个解释把抽象概念建立在日常例子之上。",
+    "enExampleSat": "The explanation grounded the abstract concept in daily examples.",
+    "zhExampleSat": "这个解释把抽象概念建立在日常例子之上。",
+    "enExampleTheme": "Professor Snape highlighted \"ground\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“ground”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"ground\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"ground\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“ground”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“ground”。"
+    }
+  },
+  {
+    "lemma": "foreground",
+    "pos": "n./v.",
+    "cnDef": "前景；强调",
+    "enDef": "the most noticeable part; to bring into focus",
+    "enExample": "The lesson foregrounds context before testing difficult words.",
+    "zhExample": "这节课在测试难词前先强调语境。",
+    "enExampleSat": "The lesson foregrounds context before testing difficult words.",
+    "zhExampleSat": "这节课在测试难词前先强调语境。",
+    "enExampleTheme": "Professor Snape highlighted \"foreground\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“foreground”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"foreground\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"foreground\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“foreground”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“foreground”。"
+    }
+  },
+  {
+    "lemma": "collective",
+    "pos": "adj./n.",
+    "cnDef": "集体的；集体",
+    "enDef": "shared by a group; a group acting together",
+    "enExample": "Collective effort helped the class finish the review challenge.",
+    "zhExample": "集体努力帮助全班完成了复习挑战。",
+    "enExampleSat": "Collective effort helped the class finish the review challenge.",
+    "zhExampleSat": "集体努力帮助全班完成了复习挑战。",
+    "enExampleTheme": "During the house briefing, Draco gave a collective response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个collective的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a collective response that shifted the team's plan.",
+      "reverse_1999": "Her collective analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个collective的回应，改变了团队计划。",
+      "reverse_1999": "她collective的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "collectively",
+    "pos": "adv.",
+    "cnDef": "共同地；集体地",
+    "enDef": "as a group",
+    "enExample": "Students collectively reviewed one hundred words this week.",
+    "zhExample": "学生们本周共同复习了一百个单词。",
+    "enExampleSat": "Students collectively reviewed one hundred words this week.",
+    "zhExampleSat": "学生们本周共同复习了一百个单词。",
+    "enExampleTheme": "The study journal used \"collectively\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“collectively”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"collectively\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"collectively\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“collectively”来总结今天任务结果。",
+      "reverse_1999": "笔记把“collectively”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "amount",
+    "pos": "n./v.",
+    "cnDef": "数量；总计",
+    "enDef": "a quantity of something; to total",
+    "enExample": "A small amount of daily review prevents major forgetting.",
+    "zhExample": "每天少量复习可防止大幅遗忘。",
+    "enExampleSat": "A small amount of daily review prevents major forgetting.",
+    "zhExampleSat": "每天少量复习可防止大幅遗忘。",
+    "enExampleTheme": "In the Slytherin archives, the term \"amount\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“amount”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"amount\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"amount\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“amount”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“amount”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "fitting",
+    "pos": "adj.",
+    "cnDef": "恰当的；合适的",
+    "enDef": "suitable or appropriate",
+    "enExample": "It was fitting to celebrate her steady improvement.",
+    "zhExample": "庆祝她稳步进步是很合适的。",
+    "enExampleSat": "It was fitting to celebrate her steady improvement.",
+    "zhExampleSat": "庆祝她稳步进步是很合适的。",
+    "enExampleTheme": "The prefect praised her fitting judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的fitting判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her fitting judgment in the potion challenge.",
+      "reverse_1999": "The team needed a fitting decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的fitting判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个fitting的决策。"
+    }
+  },
+  {
+    "lemma": "fittingly",
+    "pos": "adv.",
+    "cnDef": "恰当地；合适地",
+    "enDef": "in an appropriate manner",
+    "enExample": "The chapter fittingly ended with a summary quiz.",
+    "zhExample": "这一章以总结测验作结，非常恰当。",
+    "enExampleSat": "The chapter fittingly ended with a summary quiz.",
+    "zhExampleSat": "这一章以总结测验作结，非常恰当。",
+    "enExampleTheme": "In the Slytherin chamber, \"fittingly\" came up in a strategy discussion.",
+    "zhExampleTheme": "在斯莱特林密室中，“fittingly”出现在一次策略讨论里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin chamber, \"fittingly\" came up in a strategy discussion.",
+      "reverse_1999": "In the Foundation archive, \"fittingly\" appeared in a time-anomaly report."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林密室中，“fittingly”出现在一次策略讨论里。",
+      "reverse_1999": "在基金会档案中，“fittingly”出现在一份时间异常报告里。"
+    }
+  },
+  {
+    "lemma": "dependent",
+    "pos": "adj.",
+    "cnDef": "依赖的",
+    "enDef": "relying on someone or something else",
+    "enExample": "Progress is dependent on consistency rather than intensity.",
+    "zhExample": "进步依赖的是持续性而非强度。",
+    "enExampleSat": "Progress is dependent on consistency rather than intensity.",
+    "zhExampleSat": "进步依赖的是持续性而非强度。",
+    "enExampleTheme": "The prefect praised her dependent judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的dependent判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her dependent judgment in the potion challenge.",
+      "reverse_1999": "The team needed a dependent decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的dependent判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个dependent的决策。"
+    }
+  },
+  {
+    "lemma": "dependable",
+    "pos": "adj.",
+    "cnDef": "可靠的",
+    "enDef": "trustworthy and reliable",
+    "enExample": "A dependable routine makes long-term learning easier.",
+    "zhExample": "可靠的日常流程会让长期学习更轻松。",
+    "enExampleSat": "A dependable routine makes long-term learning easier.",
+    "zhExampleSat": "可靠的日常流程会让长期学习更轻松。",
+    "enExampleTheme": "During the house briefing, Draco gave a dependable response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个dependable的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a dependable response that shifted the team's plan.",
+      "reverse_1999": "Her dependable analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个dependable的回应，改变了团队计划。",
+      "reverse_1999": "她dependable的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "sizable",
+    "pos": "adj.",
+    "cnDef": "相当大的",
+    "enDef": "fairly large in size or amount",
+    "enExample": "She built a sizable vocabulary over three months.",
+    "zhExample": "她在三个月内积累了相当大的词汇量。",
+    "enExampleSat": "She built a sizable vocabulary over three months.",
+    "zhExampleSat": "她在三个月内积累了相当大的词汇量。",
+    "enExampleTheme": "During the house briefing, Draco gave a sizable response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个sizable的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a sizable response that shifted the team's plan.",
+      "reverse_1999": "Her sizable analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个sizable的回应，改变了团队计划。",
+      "reverse_1999": "她sizable的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "tend",
+    "pos": "v.",
+    "cnDef": "倾向于；照料",
+    "enDef": "to be likely to do something; to care for",
+    "enExample": "Students tend to remember words better after active recall.",
+    "zhExample": "学生在主动回忆后往往更能记住单词。",
+    "enExampleSat": "Students tend to remember words better after active recall.",
+    "zhExampleSat": "学生在主动回忆后往往更能记住单词。",
+    "enExampleTheme": "The Slytherin team learned to tend quickly before the final duel.",
+    "zhExampleTheme": "斯莱特林队在最终对决前学会了迅速tend。",
+    "themedExamples": {
+      "hp_slytherin": "The Slytherin team learned to tend quickly before the final duel.",
+      "reverse_1999": "Foundation analysts tend the records again after the storm rewound the hour."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯莱特林队在最终对决前学会了迅速tend。",
+      "reverse_1999": "在风暴把时间回卷后，基金会分析员再次tend了档案。"
+    }
+  },
+  {
+    "lemma": "strike",
+    "pos": "v./n.",
+    "cnDef": "打击；突然想到；显著印象",
+    "enDef": "to hit, occur suddenly, or make a strong impression",
+    "enExample": "One phrase may strike you as odd in formal writing.",
+    "zhExample": "某些短语在正式写作中可能会让你觉得突兀。",
+    "enExampleSat": "One phrase may strike you as odd in formal writing.",
+    "zhExampleSat": "某些短语在正式写作中可能会让你觉得突兀。",
+    "enExampleTheme": "To pass the midnight task, students had to strike the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须strike地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to strike the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to strike every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须strike地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序strike每条线索。"
+    }
+  },
+  {
+    "lemma": "striking",
+    "pos": "adj.",
+    "cnDef": "引人注目的",
+    "enDef": "very noticeable or impressive",
+    "enExample": "The graph showed a striking increase in retention rate.",
+    "zhExample": "图表显示记忆保持率显著上升。",
+    "enExampleSat": "The graph showed a striking increase in retention rate.",
+    "zhExampleSat": "图表显示记忆保持率显著上升。",
+    "enExampleTheme": "The prefect praised her striking judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的striking判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her striking judgment in the potion challenge.",
+      "reverse_1999": "The team needed a striking decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的striking判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个striking的决策。"
+    }
+  },
+  {
+    "lemma": "imaginative",
+    "pos": "adj.",
+    "cnDef": "富有想象力的",
+    "enDef": "creative and full of new ideas",
+    "enExample": "An imaginative example can make a difficult word easier.",
+    "zhExample": "富有想象力的例句能让难词更易记。",
+    "enExampleSat": "An imaginative example can make a difficult word easier.",
+    "zhExampleSat": "富有想象力的例句能让难词更易记。",
+    "enExampleTheme": "During the house briefing, Draco gave a imaginative response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个imaginative的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a imaginative response that shifted the team's plan.",
+      "reverse_1999": "Her imaginative analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个imaginative的回应，改变了团队计划。",
+      "reverse_1999": "她imaginative的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "imaginable",
+    "pos": "adj.",
+    "cnDef": "可以想象的",
+    "enDef": "possible to imagine",
+    "enExample": "She tested every imaginable meaning before choosing the best one.",
+    "zhExample": "她在作答前测试了所有可以想象的词义。",
+    "enExampleSat": "She tested every imaginable meaning before choosing the best one.",
+    "zhExampleSat": "她在作答前测试了所有可以想象的词义。",
+    "enExampleTheme": "The prefect praised her imaginable judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的imaginable判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her imaginable judgment in the potion challenge.",
+      "reverse_1999": "The team needed a imaginable decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的imaginable判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个imaginable的决策。"
+    }
+  },
+  {
+    "lemma": "imaginary",
+    "pos": "adj.",
+    "cnDef": "想象中的；虚构的",
+    "enDef": "existing only in the mind",
+    "enExample": "The story used an imaginary city to explain social change.",
+    "zhExample": "这个故事用一个虚构城市来解释社会变化。",
+    "enExampleSat": "The story used an imaginary city to explain social change.",
+    "zhExampleSat": "这个故事用一个虚构城市来解释社会变化。",
+    "enExampleTheme": "The prefect praised her imaginary judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的imaginary判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her imaginary judgment in the potion challenge.",
+      "reverse_1999": "The team needed a imaginary decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的imaginary判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个imaginary的决策。"
+    }
+  },
+  {
+    "lemma": "imagery",
+    "pos": "n.",
+    "cnDef": "意象；形象化语言",
+    "enDef": "descriptive language that creates mental pictures",
+    "enExample": "The poem's imagery helped students infer tone and mood.",
+    "zhExample": "诗歌中的意象帮助学生推断语气和情绪。",
+    "enExampleSat": "The poem's imagery helped students infer tone and mood.",
+    "zhExampleSat": "诗歌中的意象帮助学生推断语气和情绪。",
+    "enExampleTheme": "In the Slytherin archives, the term \"imagery\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“imagery”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"imagery\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"imagery\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“imagery”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“imagery”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "shape",
+    "pos": "n./v.",
+    "cnDef": "形状；塑造",
+    "enDef": "form, or to influence development",
+    "enExample": "Daily revision can shape a stronger language foundation.",
+    "zhExample": "每日复习可以塑造更扎实的语言基础。",
+    "enExampleSat": "Daily revision can shape a stronger language foundation.",
+    "zhExampleSat": "每日复习可以塑造更扎实的语言基础。",
+    "enExampleTheme": "Professor Snape highlighted \"shape\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“shape”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"shape\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"shape\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“shape”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“shape”。"
+    }
+  },
+  {
+    "lemma": "address",
+    "pos": "v./n.",
+    "cnDef": "处理；演讲；地址",
+    "enDef": "to deal with a problem; a formal speech; location",
+    "enExample": "The coach addressed common vocabulary mistakes one by one.",
+    "zhExample": "教练逐一处理常见词汇错误。",
+    "enExampleSat": "The coach addressed common vocabulary mistakes one by one.",
+    "zhExampleSat": "教练逐一处理常见词汇错误。",
+    "enExampleTheme": "To pass the midnight task, students had to address the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须address地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to address the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to address every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须address地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序address每条线索。"
+    }
+  },
+  {
+    "lemma": "redress",
+    "pos": "v./n.",
+    "cnDef": "纠正；补救",
+    "enDef": "to correct or remedy a wrong",
+    "enExample": "The extra quiz helped redress gaps in understanding.",
+    "zhExample": "额外小测有助于弥补理解上的缺口。",
+    "enExampleSat": "The extra quiz helped redress gaps in understanding.",
+    "zhExampleSat": "额外小测有助于弥补理解上的缺口。",
+    "enExampleTheme": "To pass the midnight task, students had to redress the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须redress地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to redress the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to redress every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须redress地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序redress每条线索。"
+    }
+  },
+  {
+    "lemma": "admit",
+    "pos": "v.",
+    "cnDef": "承认；准许进入",
+    "enDef": "to acknowledge truth or allow entry",
+    "enExample": "He admitted that he had guessed two answers.",
+    "zhExample": "他承认有两题是猜的。",
+    "enExampleSat": "He admitted that he had guessed two answers.",
+    "zhExampleSat": "他承认有两题是猜的。",
+    "enExampleTheme": "The Slytherin team learned to admit quickly before the final duel.",
+    "zhExampleTheme": "斯莱特林队在最终对决前学会了迅速admit。",
+    "themedExamples": {
+      "hp_slytherin": "The Slytherin team learned to admit quickly before the final duel.",
+      "reverse_1999": "Foundation analysts admit the records again after the storm rewound the hour."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯莱特林队在最终对决前学会了迅速admit。",
+      "reverse_1999": "在风暴把时间回卷后，基金会分析员再次admit了档案。"
+    }
+  },
+  {
+    "lemma": "admittedly",
+    "pos": "adv.",
+    "cnDef": "诚然；不可否认地",
+    "enDef": "used to concede a point",
+    "enExample": "Admittedly, memorizing fifty words can feel demanding at first.",
+    "zhExample": "诚然，起初背五十个词会感觉吃力。",
+    "enExampleSat": "Admittedly, memorizing fifty words can feel demanding at first.",
+    "zhExampleSat": "诚然，起初背五十个词会感觉吃力。",
+    "enExampleTheme": "The study journal used \"admittedly\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“admittedly”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"admittedly\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"admittedly\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“admittedly”来总结今天任务结果。",
+      "reverse_1999": "笔记把“admittedly”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "promise",
+    "pos": "n./v.",
+    "cnDef": "承诺；有希望",
+    "enDef": "a commitment, or to show future potential",
+    "enExample": "The new routine shows promise for steady progress.",
+    "zhExample": "这个新流程显示出稳定进步的潜力。",
+    "enExampleSat": "The new routine shows promise for steady progress.",
+    "zhExampleSat": "这个新流程显示出稳定进步的潜力。",
+    "enExampleTheme": "Professor Snape highlighted \"promise\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“promise”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"promise\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"promise\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“promise”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“promise”。"
+    }
+  },
+  {
+    "lemma": "promising",
+    "pos": "adj.",
+    "cnDef": "有前途的；有希望的",
+    "enDef": "likely to succeed or improve",
+    "enExample": "Her latest scores look promising after consistent practice.",
+    "zhExample": "在持续练习后，她最近的成绩很有希望。",
+    "enExampleSat": "Her latest scores look promising after consistent practice.",
+    "zhExampleSat": "在持续练习后，她最近的成绩很有希望。",
+    "enExampleTheme": "During the house briefing, Draco gave a promising response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个promising的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a promising response that shifted the team's plan.",
+      "reverse_1999": "Her promising analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个promising的回应，改变了团队计划。",
+      "reverse_1999": "她promising的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "realization",
+    "pos": "n.",
+    "cnDef": "认识到；实现",
+    "enDef": "the act of understanding or making real",
+    "enExample": "The realization that context matters changed his strategy.",
+    "zhExample": "他意识到语境重要后改变了策略。",
+    "enExampleSat": "The realization that context matters changed his strategy.",
+    "zhExampleSat": "他意识到语境重要后改变了策略。",
+    "enExampleTheme": "In the Slytherin archives, the term \"realization\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“realization”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"realization\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"realization\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“realization”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“realization”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "unrealized",
+    "pos": "adj.",
+    "cnDef": "未实现的",
+    "enDef": "not achieved or made real",
+    "enExample": "Many goals remain unrealized without regular review.",
+    "zhExample": "没有规律复习，很多目标会难以实现。",
+    "enExampleSat": "Many goals remain unrealized without regular review.",
+    "zhExampleSat": "没有规律复习，很多目标会难以实现。",
+    "enExampleTheme": "The prefect praised her unrealized judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的unrealized判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her unrealized judgment in the potion challenge.",
+      "reverse_1999": "The team needed a unrealized decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的unrealized判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个unrealized的决策。"
+    }
+  },
+  {
+    "lemma": "master",
+    "pos": "v./n.",
+    "cnDef": "掌握；大师",
+    "enDef": "to learn thoroughly; an expert",
+    "enExample": "She aims to master one set before starting another.",
+    "zhExample": "她计划先掌握一组，再开始下一组。",
+    "enExampleSat": "She aims to master one set before starting another.",
+    "zhExampleSat": "她计划先掌握一组，再开始下一组。",
+    "enExampleTheme": "To pass the midnight task, students had to master the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须master地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to master the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to master every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须master地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序master每条线索。"
+    }
+  },
+  {
+    "lemma": "mastery",
+    "pos": "n.",
+    "cnDef": "精通；掌握",
+    "enDef": "complete command of a subject or skill",
+    "enExample": "Mastery grows through repetition and accurate feedback.",
+    "zhExample": "精通来自重复练习与准确反馈。",
+    "enExampleSat": "Mastery grows through repetition and accurate feedback.",
+    "zhExampleSat": "精通来自重复练习与准确反馈。",
+    "enExampleTheme": "Professor Snape highlighted \"mastery\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“mastery”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"mastery\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"mastery\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“mastery”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“mastery”。"
+    }
+  },
+  {
+    "lemma": "masterpiece",
+    "pos": "n.",
+    "cnDef": "杰作",
+    "enDef": "a work of outstanding skill or quality",
+    "enExample": "The final essay was considered a masterpiece by the class.",
+    "zhExample": "这篇期末文章被全班视为杰作。",
+    "enExampleSat": "The final essay was considered a masterpiece by the class.",
+    "zhExampleSat": "这篇期末文章被全班视为杰作。",
+    "enExampleTheme": "In the Slytherin archives, the term \"masterpiece\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“masterpiece”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"masterpiece\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"masterpiece\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“masterpiece”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“masterpiece”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "mistakenly",
+    "pos": "adv.",
+    "cnDef": "错误地",
+    "enDef": "in a wrong way due to misunderstanding",
+    "enExample": "He mistakenly matched the word to an unrelated definition.",
+    "zhExample": "他错误地把单词配到了不相关的释义上。",
+    "enExampleSat": "He mistakenly matched the word to an unrelated definition.",
+    "zhExampleSat": "他错误地把单词配到了不相关的释义上。",
+    "enExampleTheme": "The study journal used \"mistakenly\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“mistakenly”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"mistakenly\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"mistakenly\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“mistakenly”来总结今天任务结果。",
+      "reverse_1999": "笔记把“mistakenly”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "unmistakable",
+    "pos": "adj.",
+    "cnDef": "明显的；不会认错的",
+    "enDef": "clear and impossible to confuse",
+    "enExample": "Her improvement was unmistakable after one month.",
+    "zhExample": "一个月后，她的进步非常明显。",
+    "enExampleSat": "Her improvement was unmistakable after one month.",
+    "zhExampleSat": "一个月后，她的进步非常明显。",
+    "enExampleTheme": "During the house briefing, Draco gave a unmistakable response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个unmistakable的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a unmistakable response that shifted the team's plan.",
+      "reverse_1999": "Her unmistakable analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个unmistakable的回应，改变了团队计划。",
+      "reverse_1999": "她unmistakable的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "odd",
+    "pos": "adj.",
+    "cnDef": "奇怪的；奇数的",
+    "enDef": "strange or unusual; not even in number",
+    "enExample": "That phrase sounds odd in an academic context.",
+    "zhExample": "这个短语在学术语境中听起来有些奇怪。",
+    "enExampleSat": "That phrase sounds odd in an academic context.",
+    "zhExampleSat": "这个短语在学术语境中听起来有些奇怪。",
+    "enExampleTheme": "The prefect praised her odd judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的odd判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her odd judgment in the potion challenge.",
+      "reverse_1999": "The team needed a odd decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的odd判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个odd的决策。"
+    }
+  },
+  {
+    "lemma": "oddity",
+    "pos": "n.",
+    "cnDef": "怪异之处；奇特事物",
+    "enDef": "something strange or unusual",
+    "enExample": "The scientist treated the result as an oddity, not a trend.",
+    "zhExample": "科学家将这一结果视为个别异常而非趋势。",
+    "enExampleSat": "The scientist treated the result as an oddity, not a trend.",
+    "zhExampleSat": "科学家将这一结果视为个别异常而非趋势。",
+    "enExampleTheme": "Professor Snape highlighted \"oddity\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“oddity”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"oddity\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"oddity\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“oddity”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“oddity”。"
+    }
+  },
+  {
+    "lemma": "odds",
+    "pos": "n.",
+    "cnDef": "可能性；几率",
+    "enDef": "the probability that something will happen",
+    "enExample": "The odds of retention increase with spaced repetition.",
+    "zhExample": "使用间隔复习后，记住的概率会提高。",
+    "enExampleSat": "The odds of retention increase with spaced repetition.",
+    "zhExampleSat": "使用间隔复习后，记住的概率会提高。",
+    "enExampleTheme": "In the Slytherin archives, the term \"odds\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“odds”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"odds\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"odds\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“odds”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“odds”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "at odds with",
+    "pos": "phr.",
+    "cnDef": "与…不一致；与…冲突",
+    "enDef": "in conflict or disagreement with",
+    "enExample": "His conclusion was at odds with the evidence in the passage.",
+    "zhExample": "他的结论与文中证据不一致。",
+    "enExampleSat": "His conclusion was at odds with the evidence in the passage.",
+    "zhExampleSat": "他的结论与文中证据不一致。",
+    "enExampleTheme": "The study journal used \"at odds with\" to summarize today's mission outcome.",
+    "zhExampleTheme": "学习日志用“at odds with”来总结今天任务结果。",
+    "themedExamples": {
+      "hp_slytherin": "The study journal used \"at odds with\" to summarize today's mission outcome.",
+      "reverse_1999": "The notebook marked \"at odds with\" as a clue for the next reconstruction cycle."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "学习日志用“at odds with”来总结今天任务结果。",
+      "reverse_1999": "笔记把“at odds with”标记为下一轮重构周期的线索。"
+    }
+  },
+  {
+    "lemma": "converse",
+    "pos": "v./adj.",
+    "cnDef": "交谈；相反的",
+    "enDef": "to talk, or opposite in relation",
+    "enExample": "The two researchers conversed after the lecture on memory.",
+    "zhExample": "两位研究者在关于记忆的讲座后进行了交谈。",
+    "enExampleSat": "The two researchers conversed after the lecture on memory.",
+    "zhExampleSat": "两位研究者在关于记忆的讲座后进行了交谈。",
+    "enExampleTheme": "The Slytherin team learned to converse quickly before the final duel.",
+    "zhExampleTheme": "斯莱特林队在最终对决前学会了迅速converse。",
+    "themedExamples": {
+      "hp_slytherin": "The Slytherin team learned to converse quickly before the final duel.",
+      "reverse_1999": "Foundation analysts converse the records again after the storm rewound the hour."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯莱特林队在最终对决前学会了迅速converse。",
+      "reverse_1999": "在风暴把时间回卷后，基金会分析员再次converse了档案。"
+    }
+  },
+  {
+    "lemma": "conversely",
+    "pos": "adv.",
+    "cnDef": "相反地",
+    "enDef": "in an opposite way",
+    "enExample": "Short sessions reduce fatigue; conversely, marathon study often lowers accuracy.",
+    "zhExample": "短时学习可减少疲劳；相反，长时间突击常降低准确率。",
+    "enExampleSat": "Short sessions reduce fatigue; conversely, marathon study often lowers accuracy.",
+    "zhExampleSat": "短时学习可减少疲劳；相反，长时间突击常降低准确率。",
+    "enExampleTheme": "In the Slytherin chamber, \"conversely\" came up in a strategy discussion.",
+    "zhExampleTheme": "在斯莱特林密室中，“conversely”出现在一次策略讨论里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin chamber, \"conversely\" came up in a strategy discussion.",
+      "reverse_1999": "In the Foundation archive, \"conversely\" appeared in a time-anomaly report."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林密室中，“conversely”出现在一次策略讨论里。",
+      "reverse_1999": "在基金会档案中，“conversely”出现在一份时间异常报告里。"
+    }
+  },
+  {
+    "lemma": "afford",
+    "pos": "v.",
+    "cnDef": "承担得起；提供",
+    "enDef": "to have enough resources for; to provide",
+    "enExample": "This method affords learners more chances to review mistakes.",
+    "zhExample": "这种方法为学习者提供了更多复盘错题的机会。",
+    "enExampleSat": "This method affords learners more chances to review mistakes.",
+    "zhExampleSat": "这种方法为学习者提供了更多复盘错题的机会。",
+    "enExampleTheme": "To pass the midnight task, students had to afford the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须afford地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to afford the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to afford every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须afford地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序afford每条线索。"
+    }
+  },
+  {
+    "lemma": "operative",
+    "pos": "adj.",
+    "cnDef": "起作用的；操作的",
+    "enDef": "working and effective in operation",
+    "enExample": "The key operative principle is active recall, not passive reading.",
+    "zhExample": "关键起作用的原则是主动回忆，而非被动阅读。",
+    "enExampleSat": "The key operative principle is active recall, not passive reading.",
+    "zhExampleSat": "关键起作用的原则是主动回忆，而非被动阅读。",
+    "enExampleTheme": "The prefect praised her operative judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的operative判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her operative judgment in the potion challenge.",
+      "reverse_1999": "The team needed a operative decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的operative判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个operative的决策。"
+    }
+  },
+  {
+    "lemma": "apply",
+    "pos": "v.",
+    "cnDef": "应用；申请",
+    "enDef": "to put into use or request formally",
+    "enExample": "Apply each new word in a sentence to reinforce memory.",
+    "zhExample": "把每个新词用于句子中以强化记忆。",
+    "enExampleSat": "Apply each new word in a sentence to reinforce memory.",
+    "zhExampleSat": "把每个新词用于句子中以强化记忆。",
+    "enExampleTheme": "To pass the midnight task, students had to apply the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须apply地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to apply the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to apply every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须apply地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序apply每条线索。"
+    }
+  },
+  {
+    "lemma": "application",
+    "pos": "n.",
+    "cnDef": "应用；申请",
+    "enDef": "the act of putting to use or a formal request",
+    "enExample": "Practical application of vocabulary improves retention.",
+    "zhExample": "词汇的实际应用能提升记忆保持。",
+    "enExampleSat": "Practical application of vocabulary improves retention.",
+    "zhExampleSat": "词汇的实际应用能提升记忆保持。",
+    "enExampleTheme": "In the Slytherin archives, the term \"application\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“application”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"application\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"application\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“application”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“application”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "applicable",
+    "pos": "adj.",
+    "cnDef": "适用的",
+    "enDef": "relevant and suitable to a situation",
+    "enExample": "This strategy is applicable to both reading and writing tasks.",
+    "zhExample": "该策略适用于阅读和写作任务。",
+    "enExampleSat": "This strategy is applicable to both reading and writing tasks.",
+    "zhExampleSat": "该策略适用于阅读和写作任务。",
+    "enExampleTheme": "The prefect praised her applicable judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的applicable判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her applicable judgment in the potion challenge.",
+      "reverse_1999": "The team needed a applicable decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的applicable判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个applicable的决策。"
+    }
+  },
+  {
+    "lemma": "applicability",
+    "pos": "n.",
+    "cnDef": "适用性",
+    "enDef": "the quality of being relevant or useful",
+    "enExample": "We tested the applicability of the method across grade levels.",
+    "zhExample": "我们测试了该方法在不同年级中的适用性。",
+    "enExampleSat": "We tested the applicability of the method across grade levels.",
+    "zhExampleSat": "我们测试了该方法在不同年级中的适用性。",
+    "enExampleTheme": "Professor Snape highlighted \"applicability\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“applicability”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"applicability\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"applicability\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“applicability”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“applicability”。"
+    }
+  },
+  {
+    "lemma": "individualistic",
+    "pos": "adj.",
+    "cnDef": "个人主义的",
+    "enDef": "emphasizing individual independence over group norms",
+    "enExample": "An individualistic approach works only if discipline is strong.",
+    "zhExample": "个人化学习方式只有在自律强时才有效。",
+    "enExampleSat": "An individualistic approach works only if discipline is strong.",
+    "zhExampleSat": "个人化学习方式只有在自律强时才有效。",
+    "enExampleTheme": "The prefect praised her individualistic judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的individualistic判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her individualistic judgment in the potion challenge.",
+      "reverse_1999": "The team needed a individualistic decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的individualistic判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个individualistic的决策。"
+    }
+  },
+  {
+    "lemma": "representative",
+    "pos": "adj./n.",
+    "cnDef": "有代表性的；代表",
+    "enDef": "typical of a group, or a person who represents others",
+    "enExample": "Use representative examples instead of rare edge cases.",
+    "zhExample": "请使用有代表性的例子，而不是罕见边缘案例。",
+    "enExampleSat": "Use representative examples instead of rare edge cases.",
+    "zhExampleSat": "请使用有代表性的例子，而不是罕见边缘案例。",
+    "enExampleTheme": "The prefect praised her representative judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的representative判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her representative judgment in the potion challenge.",
+      "reverse_1999": "The team needed a representative decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的representative判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个representative的决策。"
+    }
+  },
+  {
+    "lemma": "unrepresentative",
+    "pos": "adj.",
+    "cnDef": "无代表性的",
+    "enDef": "not typical of the whole group",
+    "enExample": "One unrepresentative score should not define overall progress.",
+    "zhExample": "一个无代表性的分数不应定义整体进展。",
+    "enExampleSat": "One unrepresentative score should not define overall progress.",
+    "zhExampleSat": "一个无代表性的分数不应定义整体进展。",
+    "enExampleTheme": "During the house briefing, Draco gave a unrepresentative response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个unrepresentative的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a unrepresentative response that shifted the team's plan.",
+      "reverse_1999": "Her unrepresentative analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个unrepresentative的回应，改变了团队计划。",
+      "reverse_1999": "她unrepresentative的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "account",
+    "pos": "n./v.",
+    "cnDef": "账户；叙述；解释",
+    "enDef": "a record, report, or to explain",
+    "enExample": "Can you account for why this answer is more precise?",
+    "zhExample": "你能解释为什么这个答案更精确吗？",
+    "enExampleSat": "Can you account for why this answer is more precise?",
+    "zhExampleSat": "你能解释为什么这个答案更精确吗？",
+    "enExampleTheme": "Professor Snape highlighted \"account\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“account”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"account\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"account\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“account”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“account”。"
+    }
+  },
+  {
+    "lemma": "account for",
+    "pos": "phr.",
+    "cnDef": "解释；占据",
+    "enDef": "to explain, or to make up a part of",
+    "enExample": "Review errors account for a large part of score improvement.",
+    "zhExample": "复盘错题占成绩提升的重要部分。",
+    "enExampleSat": "Review errors account for a large part of score improvement.",
+    "zhExampleSat": "复盘错题占成绩提升的重要部分。",
+    "enExampleTheme": "In the Slytherin chamber, \"account for\" came up in a strategy discussion.",
+    "zhExampleTheme": "在斯莱特林密室中，“account for”出现在一次策略讨论里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin chamber, \"account for\" came up in a strategy discussion.",
+      "reverse_1999": "In the Foundation archive, \"account for\" appeared in a time-anomaly report."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林密室中，“account for”出现在一次策略讨论里。",
+      "reverse_1999": "在基金会档案中，“account for”出现在一份时间异常报告里。"
+    }
+  },
+  {
+    "lemma": "take...into account",
+    "pos": "phr.",
+    "cnDef": "把…考虑在内",
+    "enDef": "to consider something when making a decision",
+    "enExample": "Take context into account before selecting the meaning.",
+    "zhExample": "在选择词义前把语境考虑进去。",
+    "enExampleSat": "Take context into account before selecting the meaning.",
+    "zhExampleSat": "在选择词义前把语境考虑进去。",
+    "enExampleTheme": "In the Slytherin chamber, \"take...into account\" came up in a strategy discussion.",
+    "zhExampleTheme": "在斯莱特林密室中，“take...into account”出现在一次策略讨论里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin chamber, \"take...into account\" came up in a strategy discussion.",
+      "reverse_1999": "In the Foundation archive, \"take...into account\" appeared in a time-anomaly report."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林密室中，“take...into account”出现在一次策略讨论里。",
+      "reverse_1999": "在基金会档案中，“take...into account”出现在一份时间异常报告里。"
+    }
+  },
+  {
+    "lemma": "unaccounted",
+    "pos": "adj.",
+    "cnDef": "未解释的；未被计入的",
+    "enDef": "not explained or not included in totals",
+    "enExample": "Some errors remained unaccounted in the first analysis.",
+    "zhExample": "首次分析中有些错误尚未被解释。",
+    "enExampleSat": "Some errors remained unaccounted in the first analysis.",
+    "zhExampleSat": "首次分析中有些错误尚未被解释。",
+    "enExampleTheme": "The prefect praised her unaccounted judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的unaccounted判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her unaccounted judgment in the potion challenge.",
+      "reverse_1999": "The team needed a unaccounted decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的unaccounted判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个unaccounted的决策。"
+    }
+  },
+  {
+    "lemma": "labor",
+    "pos": "n./v.",
+    "cnDef": "劳动；费力做",
+    "enDef": "work, especially hard physical or mental work",
+    "enExample": "Language growth requires steady labor over many weeks.",
+    "zhExample": "语言能力提升需要持续数周的努力。",
+    "enExampleSat": "Language growth requires steady labor over many weeks.",
+    "zhExampleSat": "语言能力提升需要持续数周的努力。",
+    "enExampleTheme": "In the Slytherin archives, the term \"labor\" appeared in a note on strategic planning.",
+    "zhExampleTheme": "在斯莱特林档案中，术语“labor”出现在一份关于策略规划的笔记里。",
+    "themedExamples": {
+      "hp_slytherin": "In the Slytherin archives, the term \"labor\" appeared in a note on strategic planning.",
+      "reverse_1999": "In the Foundation report, \"labor\" was tagged as a key timeline signal."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在斯莱特林档案中，术语“labor”出现在一份关于策略规划的笔记里。",
+      "reverse_1999": "在基金会报告中，“labor”被标记为关键时间线信号。"
+    }
+  },
+  {
+    "lemma": "laborious",
+    "pos": "adj.",
+    "cnDef": "费力的；艰苦的",
+    "enDef": "requiring much effort and time",
+    "enExample": "At first, annotation feels laborious but quickly becomes useful.",
+    "zhExample": "起初做标注很费力，但很快会变得有用。",
+    "enExampleSat": "At first, annotation feels laborious but quickly becomes useful.",
+    "zhExampleSat": "起初做标注很费力，但很快会变得有用。",
+    "enExampleTheme": "During the house briefing, Draco gave a laborious response that shifted the team's plan.",
+    "zhExampleTheme": "在学院简报中，德拉科给出了一个laborious的回应，改变了团队计划。",
+    "themedExamples": {
+      "hp_slytherin": "During the house briefing, Draco gave a laborious response that shifted the team's plan.",
+      "reverse_1999": "Her laborious analysis helped the Foundation stabilize the fractured district."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "在学院简报中，德拉科给出了一个laborious的回应，改变了团队计划。",
+      "reverse_1999": "她laborious的分析帮助基金会稳定了破碎街区。"
+    }
+  },
+  {
+    "lemma": "collaborate",
+    "pos": "v.",
+    "cnDef": "合作",
+    "enDef": "to work together with others",
+    "enExample": "Students collaborate to compare definitions and examples.",
+    "zhExample": "学生们合作比较释义与例句。",
+    "enExampleSat": "Students collaborate to compare definitions and examples.",
+    "zhExampleSat": "学生们合作比较释义与例句。",
+    "enExampleTheme": "To pass the midnight task, students had to collaborate the clues hidden in the dungeon.",
+    "zhExampleTheme": "为了通过午夜任务，学生们必须collaborate地处理藏在地牢里的线索。",
+    "themedExamples": {
+      "hp_slytherin": "To pass the midnight task, students had to collaborate the clues hidden in the dungeon.",
+      "reverse_1999": "To secure the mission, Vertin had to collaborate every clue in chronological order."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "为了通过午夜任务，学生们必须collaborate地处理藏在地牢里的线索。",
+      "reverse_1999": "为确保任务成功，维尔汀必须按时间顺序collaborate每条线索。"
+    }
+  },
+  {
+    "lemma": "collaboration",
+    "pos": "n.",
+    "cnDef": "合作",
+    "enDef": "the act of working together",
+    "enExample": "Collaboration can make difficult tasks less stressful.",
+    "zhExample": "合作可以让困难任务不那么有压力。",
+    "enExampleSat": "Collaboration can make difficult tasks less stressful.",
+    "zhExampleSat": "合作可以让困难任务不那么有压力。",
+    "enExampleTheme": "Professor Snape highlighted \"collaboration\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“collaboration”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"collaboration\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"collaboration\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“collaboration”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“collaboration”。"
+    }
+  },
+  {
+    "lemma": "collaborative",
+    "pos": "adj.",
+    "cnDef": "合作的；协作的",
+    "enDef": "involving people working together",
+    "enExample": "A collaborative classroom encourages active vocabulary use.",
+    "zhExample": "协作型课堂鼓励积极使用词汇。",
+    "enExampleSat": "A collaborative classroom encourages active vocabulary use.",
+    "zhExampleSat": "协作型课堂鼓励积极使用词汇。",
+    "enExampleTheme": "The prefect praised her collaborative judgment in the potion challenge.",
+    "zhExampleTheme": "级长称赞了她在魔药挑战中的collaborative判断。",
+    "themedExamples": {
+      "hp_slytherin": "The prefect praised her collaborative judgment in the potion challenge.",
+      "reverse_1999": "The team needed a collaborative decision before the next temporal collapse."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "级长称赞了她在魔药挑战中的collaborative判断。",
+      "reverse_1999": "在下一次时序崩塌前，团队需要一个collaborative的决策。"
+    }
+  },
+  {
+    "lemma": "association",
+    "pos": "n.",
+    "cnDef": "关联；协会",
+    "enDef": "a connection between ideas, or an organized group",
+    "enExample": "Strong association between word and context improves recall.",
+    "zhExample": "单词与语境之间的强关联可提升回忆效果。",
+    "enExampleSat": "Strong association between word and context improves recall.",
+    "zhExampleSat": "单词与语境之间的强关联可提升回忆效果。",
+    "enExampleTheme": "Professor Snape highlighted \"association\" while explaining advanced reading passages.",
+    "zhExampleTheme": "斯内普教授在讲解高阶阅读材料时特别强调了“association”。",
+    "themedExamples": {
+      "hp_slytherin": "Professor Snape highlighted \"association\" while explaining advanced reading passages.",
+      "reverse_1999": "The Timekeeper recorded \"association\" before the rain anomaly intensified."
+    },
+    "themedExamplesZh": {
+      "hp_slytherin": "斯内普教授在讲解高阶阅读材料时特别强调了“association”。",
+      "reverse_1999": "在雨灾异常加剧前，司辰记录下了“association”。"
+    }
+  }
+]

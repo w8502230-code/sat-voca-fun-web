@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-04-18T14:27:12.991Z",
+  "strictTheme": false,
+  "inputPath": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports",
+  "namePrefix": "words-list",
+  "summary": {
+    "scannedFiles": 31,
+    "scannedWords": 5876,
+    "missingLemma": 0,
+    "missingCnDef": 5876,
+    "missingEnDef": 5876,
+    "missingSat": 5876,
+    "missingSatZh": 5876,
+    "missingTheme": 5876,
+    "missingThemeZh": 5876,
+    "satThemeExactDuplicate": 0,
+    "satWithoutLemmaMention": 0,
+    "duplicateLemmaRows": 0,
+    "duplicateSatRows": 0
+  },
+  "details": {
+    "fileErrors": [],
+    "duplicateLemmaRows": [],
+    "duplicateSatRows": [],
+    "samples": {
+      "missingSat": [
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "aback"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abate"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "aberration"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abide"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abolish"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abolition"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abolitionist"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abound"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "absenteeism"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abysm"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "academia"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accentuate"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accessible"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accessory"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "acclaim"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "acclaimed"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accolade"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accommodate"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accommodation"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accord"
+        }
+      ],
+      "missingTheme": [
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "aback"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abate"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "aberration"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abide"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abolish"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abolition"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abolitionist"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abound"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "absenteeism"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "abysm"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "academia"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accentuate"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accessible"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accessory"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "acclaim"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "acclaimed"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accolade"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accommodate"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accommodation"
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\words-list-all.json",
+          "lemma": "accord"
+        }
+      ],
+      "satWithoutLemmaMention": []
+    }
+  }
+}

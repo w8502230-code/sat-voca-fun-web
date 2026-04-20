@@ -1,0 +1,22 @@
+{
+  "pid": 30964,
+  "outputPath": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+  "inputPath": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+  "cachePath": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\imports\\dictionary-cache-online.json",
+  "startedAt": "2026-04-19T04:52:11.954Z",
+  "argv": [
+    "--retranslate-only",
+    "--input",
+    "data/words-list-base.json",
+    "--output",
+    "data/words-list-base.json",
+    "--cache",
+    "data/imports/dictionary-cache-online.json",
+    "--concurrency",
+    "4",
+    "--sleep-ms",
+    "80",
+    "--save-every",
+    "50"
+  ]
+}

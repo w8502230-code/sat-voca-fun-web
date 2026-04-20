@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-04-18T22:53:47.854Z",
+  "strictTheme": true,
+  "inputPath": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+  "namePrefix": "words-list",
+  "summary": {
+    "scannedFiles": 1,
+    "scannedWords": 2888,
+    "missingLemma": 0,
+    "missingCnDef": 0,
+    "missingEnDef": 0,
+    "missingSat": 0,
+    "missingSatZh": 0,
+    "missingTheme": 0,
+    "missingThemeZh": 0,
+    "satThemeExactDuplicate": 0,
+    "satWithoutLemmaMention": 14,
+    "duplicateLemmaRows": 0,
+    "duplicateSatRows": 1
+  },
+  "details": {
+    "fileErrors": [],
+    "duplicateLemmaRows": [],
+    "duplicateSatRows": [
+      {
+        "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+        "lemma": "authenticate",
+        "sat": "The experts confirmed it was an authentic signature."
+      }
+    ],
+    "samples": {
+      "missingSat": [],
+      "missingTheme": [],
+      "satWithoutLemmaMention": [
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "aggregate",
+          "sat": "There are ten loads, aggregating five hundred bushels."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "arouse",
+          "sat": "The new building proposals in the village are arousing unneeded discomfort."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "authenticate",
+          "sat": "The experts confirmed it was an authentic signature."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "byproduct",
+          "sat": "The many Indian restaurants all over Britain are a by-product of the large waves of immigration from the subcontinent."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "carol",
+          "sat": "He was busy writing his report in a small library carrel."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "certify",
+          "sat": "These blankets have been certified as fireproof."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "codify",
+          "sat": "The company president codified the goal as a one-line mission statement."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "considerate",
+          "sat": "Consider that we’ve had three major events and the year has hardly begun."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "debilitate",
+          "sat": "The American Dream suffered a debilitating effect after the subprime crisis."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "décor",
+          "sat": "Her living room had a lush Persian-style decor."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "discriminate",
+          "sat": "The law prohibits discriminating against people based on their skin color."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "disfavor",
+          "sat": "His lateness for the appointment incurred her disfavour."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "favor",
+          "sat": "A marriage favour is a bunch or knot of white ribbons or white flowers worn at a wedding."
+        },
+        {
+          "file": "C:\\work folder\\AI builder\\SAT Vocabulary for FUN\\sat-voca-fun-web\\data\\words-list-base.json",
+          "lemma": "take...into account",
+          "sat": "Take context into account before selecting the meaning."
+        }
+      ]
+    }
+  }
+}
