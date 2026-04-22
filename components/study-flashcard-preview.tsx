@@ -7,7 +7,7 @@ import { enqueueOfflineStudyMark } from "@/lib/offline-queue";
 import type { ThemeId } from "@/lib/theme";
 import { themeDetails } from "@/lib/theme";
 import { getStudyThemeMarkSrc } from "@/lib/theme-assets";
-import { getThemeExampleFallback, type WordEntry } from "@/lib/word-bank";
+import type { WordEntry } from "@/lib/word-bank";
 
 type Props = {
   words: WordEntry[];
@@ -44,10 +44,9 @@ export function StudyFlashcardPreview({
     : "h-10 w-10 rounded-md border border-amber-600/70 bg-amber-950/60 object-contain p-0.5";
 
   const current = words[index];
+  const satExampleEn = current?.enExampleSat?.trim() || current?.enDef || "";
+  const satExampleZh = current?.zhExampleSat?.trim();
   const progress = words.length === 0 ? 0 : Math.round(((index + 1) / words.length) * 100);
-  const themeFallback = current ? getThemeExampleFallback(current, theme) : null;
-  const themeExample = current?.enExampleTheme ?? themeFallback?.en ?? "";
-  const themeExampleZh = current?.zhExampleTheme ?? themeFallback?.zh;
 
   const stats = useMemo(() => {
     const values = Object.values(marks);
@@ -56,6 +55,11 @@ export function StudyFlashcardPreview({
       forgotten: values.filter((v) => v === "forgotten").length,
     };
   }, [marks]);
+
+  const markedInBatch = useMemo(
+    () => words.reduce((acc, w) => acc + (marks[w.lemma] ? 1 : 0), 0),
+    [marks, words],
+  );
 
   const moveTo = (next: number) => {
     setIndex(next);
@@ -72,11 +76,12 @@ export function StudyFlashcardPreview({
 
   useEffect(() => {
     if (!onBatchCompleted || batchCompleteEmitted || words.length === 0) return;
-    if (Object.keys(marks).length >= words.length) {
+    const allMarked = words.every((w) => Boolean(marks[w.lemma]));
+    if (allMarked) {
       onBatchCompleted();
       setBatchCompleteEmitted(true);
     }
-  }, [batchCompleteEmitted, marks, onBatchCompleted, words.length]);
+  }, [batchCompleteEmitted, marks, onBatchCompleted, words]);
 
   const onMark = async (status: MarkStatus) => {
     if (!current) return;
@@ -234,9 +239,14 @@ export function StudyFlashcardPreview({
             Theme accents: {currentTheme.cardAccent} | Scene: {currentTheme.cardBackdrop}
           </p>
         </div>
-        <span className="text-xs text-slate-400">
-          {index + 1}/{words.length}
-        </span>
+        <div className="text-right text-xs text-slate-400">
+          <p>
+            Card {index + 1}/{words.length}
+          </p>
+          <p className="mt-0.5 text-[11px] text-slate-500">
+            Marked {markedInBatch}/{words.length}
+          </p>
+        </div>
       </div>
 
       <div className="relative z-10 mb-4 h-2 w-full overflow-hidden rounded-full bg-slate-800">
@@ -271,13 +281,10 @@ export function StudyFlashcardPreview({
             <p className="mt-2 text-base font-medium text-slate-100">{current.cnDef}</p>
             <p className="mt-2 text-sm text-slate-300">{current.enDef}</p>
             <p className="mt-3 text-xs uppercase tracking-wide text-slate-400">SAT Standard Sentence</p>
-            <p className="mt-1 text-sm text-slate-200">{current.enExampleSat}</p>
-            {current.zhExampleSat ? (
-              <p className="mt-1 text-sm text-slate-400">{current.zhExampleSat}</p>
+            <p className="mt-1 text-sm text-slate-200">{satExampleEn}</p>
+            {satExampleZh ? (
+              <p className="mt-1 text-sm text-slate-400">{satExampleZh}</p>
             ) : null}
-            <p className="mt-3 text-xs uppercase tracking-wide text-slate-400">Theme Sentence</p>
-            <p className="mt-1 text-sm text-slate-200">{themeExample}</p>
-            {themeExampleZh ? <p className="mt-2 text-sm text-slate-400">{themeExampleZh}</p> : null}
             <p className={`mt-4 text-xs ${isHp ? "text-emerald-300" : "text-amber-300"}`}>
               {currentTheme.flipBackHint}
             </p>

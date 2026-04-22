@@ -11,7 +11,7 @@ type ThemePublicAssets = {
 
 export const themePublicAssets: ThemePublicAssets = {
   hp_slytherin: {
-    studyMark: "/themes/slytherin-crest.jpg",
+    studyMark: "/themes/slytherin-crest.svg",
   },
   reverse_1999: {
     studyMark: "/themes/reverse-1999-sigil.svg",
