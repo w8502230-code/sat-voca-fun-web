@@ -68,6 +68,13 @@ export default function Home() {
             external
             theme={activeTheme}
           />
+          <Card
+            title="Ops Quick Panel"
+            body="Check deployment commit, environment info, and API quick links after each release."
+            href="/ops"
+            cta="Open Ops"
+            theme={activeTheme}
+          />
         </section>
       </main>
     </div>

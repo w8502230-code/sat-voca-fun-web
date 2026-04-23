@@ -109,3 +109,14 @@ npx vercel link
 ```
 
 执行后会生成 `.vercel/project.json`，其中包含 `orgId` 和 `projectId`；将两者填入 GitHub secrets 即可。
+
+## Ops Quick Panel
+
+新增运维快速入口页面：`/ops`。可用于部署后快速核对：
+
+- 当前部署环境（`VERCEL_ENV`）
+- 当前提交短 SHA（`VERCEL_GIT_COMMIT_SHA`）
+- 当前部署 URL（`VERCEL_URL`）
+- 当前 household code
+
+页面同时提供常用 API 自检链接（theme/progress/daily-plan），用于快速确认部署是否可用。
