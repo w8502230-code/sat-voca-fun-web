@@ -2,11 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-import { getApiJsonHeaders } from "@/lib/api-client-headers";
+import { formatClientApiError, getApiJsonHeaders } from "@/lib/api-client-headers";
 import { enqueueOfflineStudyMark } from "@/lib/offline-queue";
 import type { ThemeId } from "@/lib/theme";
 import { themeDetails } from "@/lib/theme";
-import { getStudyThemeMarkSrc } from "@/lib/theme-assets";
+import { getStudyThemeMarkFallbackSrc, getStudyThemeMarkSrc } from "@/lib/theme-assets";
 import type { WordEntry } from "@/lib/word-bank";
 
 type Props = {
@@ -35,7 +35,8 @@ export function StudyFlashcardPreview({
   const [batchCompleteEmitted, setBatchCompleteEmitted] = useState(false);
   const currentTheme = themeDetails[theme];
   const isHp = theme === "hp_slytherin";
-  const studyThemeMarkSrc = getStudyThemeMarkSrc(theme);
+  const [studyThemeMarkSrc, setStudyThemeMarkSrc] = useState(getStudyThemeMarkSrc(theme));
+  const fallbackStudyThemeMarkSrc = getStudyThemeMarkFallbackSrc(theme);
   const studyMarkImgLg = isHp
     ? "h-14 w-14 rounded-lg border border-emerald-500/70 bg-emerald-950/40 object-contain p-1 shadow-[0_0_18px_rgba(16,185,129,0.35)]"
     : "h-14 w-14 rounded-lg border border-amber-500/70 bg-amber-950/40 object-contain p-1 shadow-[0_0_18px_rgba(245,158,11,0.35)]";
@@ -72,7 +73,8 @@ export function StudyFlashcardPreview({
     setMarks({});
     setSubmitError(null);
     setBatchCompleteEmitted(false);
-  }, [words]);
+    setStudyThemeMarkSrc(getStudyThemeMarkSrc(theme));
+  }, [theme, words]);
 
   useEffect(() => {
     if (!onBatchCompleted || batchCompleteEmitted || words.length === 0) return;
@@ -105,9 +107,14 @@ export function StudyFlashcardPreview({
 
       if (!response.ok) {
         const errorPayload = (await response.json().catch(() => null)) as
-          | { error?: string }
+          | { error?: unknown }
           | null;
-        setSubmitError(errorPayload?.error ?? "Save failed. Please try again.");
+        setSubmitError(
+          formatClientApiError(
+            errorPayload?.error,
+            "Save failed. Please try again.",
+          ),
+        );
         return;
       }
 
@@ -149,9 +156,14 @@ export function StudyFlashcardPreview({
         });
         if (!response.ok) {
           const errorPayload = (await response.json().catch(() => null)) as
-            | { error?: string }
+            | { error?: unknown }
             | null;
-          setSubmitError(errorPayload?.error ?? "Quick complete failed.");
+          setSubmitError(
+            formatClientApiError(
+              errorPayload?.error,
+              "Quick complete failed.",
+            ),
+          );
           return;
         }
       }
@@ -220,6 +232,7 @@ export function StudyFlashcardPreview({
           width={56}
           height={56}
           className={studyMarkImgLg}
+          onError={() => setStudyThemeMarkSrc(fallbackStudyThemeMarkSrc)}
         />
       </div>
 
@@ -232,6 +245,7 @@ export function StudyFlashcardPreview({
               width={40}
               height={40}
               className={studyMarkImgSm}
+              onError={() => setStudyThemeMarkSrc(fallbackStudyThemeMarkSrc)}
             />
             {currentTheme.missionLabel}
           </h2>
@@ -365,7 +379,9 @@ export function StudyFlashcardPreview({
         Marked in this preview - positive marks: {stats.remembered}, retry marks: {stats.forgotten}
       </p>
       {submitError ? (
-        <p className="relative z-10 mt-1 text-xs text-rose-300">{submitError}</p>
+        <p className="relative z-10 mt-2 rounded-md border border-rose-500/50 bg-rose-950/40 px-3 py-2 text-sm text-rose-100" role="alert">
+          {submitError}
+        </p>
       ) : null}
       <p className="relative z-10 mt-1 text-[11px] text-slate-500">
         On Reverse:1999 days, action labels switch to Rune Decoded / Needs Re-analysis.

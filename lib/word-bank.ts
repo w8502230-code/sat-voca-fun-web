@@ -10,6 +10,9 @@ export type WordEntry = {
   zhExampleSat?: string;
   enExampleTheme?: string;
   zhExampleTheme?: string;
+  /** Per-theme narrative lines; takes precedence over `enExampleTheme` when present. */
+  themedExamples?: Partial<Record<ThemeId, string>>;
+  themedExamplesZh?: Partial<Record<ThemeId, string>>;
 };
 
 type ThemeExampleFallback = {
@@ -24,26 +27,67 @@ type RawWordEntry = {
   enDef: string;
   enExample?: string;
   zhExample?: string;
+  zhExampleSat?: string;
   enExampleSat?: string;
   enExampleTheme?: string;
   zhExampleTheme?: string;
   themedExamples?: Partial<Record<ThemeId, string>>;
+  themedExamplesZh?: Partial<Record<ThemeId, string>>;
+};
+
+const isPlaceholderSatExample = (example: string, lemma: string) => {
+  const normalized = example.trim().toLowerCase();
+  if (!normalized) return true;
+  if (
+    normalized.includes('appears frequently in sat-style academic contexts') &&
+    normalized.includes(`"${lemma.toLowerCase()}"`)
+  ) {
+    return true;
+  }
+  return normalized.startsWith('the word "') && normalized.includes("sat-style");
+};
+
+const isPlaceholderCnDef = (cnDef: string) => {
+  const normalized = cnDef.trim();
+  if (!normalized) return true;
+  return (
+    /表示与[“"'`].+[”"'`]相关的方式/.test(normalized) ||
+    /与[“"'`].+[”"'`]相关的方式/.test(normalized) ||
+    normalized.includes("相关的方式")
+  );
+};
+
+const getCnDefFallback = () => "释义待修订（请先参考英文释义）。";
+
+const getSatExampleFallback = (lemma: string, pos: string) => {
+  const normalizedPos = pos.toLowerCase().replaceAll(".", "").trim();
+  if (normalizedPos.startsWith("v")) {
+    return `In the passage, researchers ${lemma} new evidence before drawing their conclusion.`;
+  }
+  if (normalizedPos.startsWith("adj")) {
+    return `The author presents a ${lemma} distinction to strengthen the central argument.`;
+  }
+  return `The passage treats "${lemma}" as a key concept in its academic argument.`;
 };
 
 const allWords = (wordList as RawWordEntry[]).map((raw) => {
-  const enExampleSat = raw.enExampleSat ?? raw.enExample ?? "";
-  const themeSpecific = raw.themedExamples?.hp_slytherin ?? raw.themedExamples?.reverse_1999;
-  const enExampleTheme = raw.enExampleTheme ?? themeSpecific;
+  const satExampleCandidate = (raw.enExampleSat ?? raw.enExample ?? "").trim();
+  const enExampleSat = isPlaceholderSatExample(satExampleCandidate, raw.lemma)
+    ? getSatExampleFallback(raw.lemma, raw.pos)
+    : satExampleCandidate;
+  const cnDef = isPlaceholderCnDef(raw.cnDef) ? getCnDefFallback() : raw.cnDef;
 
   return {
     lemma: raw.lemma,
     pos: raw.pos,
-    cnDef: raw.cnDef,
+    cnDef,
     enDef: raw.enDef,
     enExampleSat,
-    zhExampleSat: raw.zhExample,
-    enExampleTheme,
+    zhExampleSat: raw.zhExampleSat ?? raw.zhExample,
+    enExampleTheme: raw.enExampleTheme,
     zhExampleTheme: raw.zhExampleTheme,
+    themedExamples: raw.themedExamples,
+    themedExamplesZh: raw.themedExamplesZh,
   } satisfies WordEntry;
 });
 const DAILY_TARGET = 50;
@@ -63,12 +107,12 @@ const hashLemma = (lemma: string) => {
 const hpTemplates = {
   noun: [
     (lemma: string): ThemeExampleFallback => ({
-      en: `In the Slytherin archives, the term "${lemma}" appeared in a note on strategic planning.`,
-      zh: `在斯莱特林档案中，术语“${lemma}”出现在一份关于策略规划的笔记里。`,
+      en: `In Slytherin notes, "${lemma}" was marked as a key concept for today's passage.`,
+      zh: `在斯莱特林笔记中，“${lemma}”被标为今天篇章的关键概念。`,
     }),
     (lemma: string): ThemeExampleFallback => ({
-      en: `Professor Snape highlighted "${lemma}" while explaining advanced reading passages.`,
-      zh: `斯内普教授在讲解高阶阅读材料时特别强调了“${lemma}”。`,
+      en: `Snape asked the class to explain how "${lemma}" sharpens the author's claim.`,
+      zh: `斯内普要求全班解释“${lemma}”如何强化作者论点。`,
     }),
   ],
   adj: [
@@ -106,12 +150,12 @@ const hpTemplates = {
 const r99Templates = {
   noun: [
     (lemma: string): ThemeExampleFallback => ({
-      en: `In the Foundation report, "${lemma}" was tagged as a key timeline signal.`,
-      zh: `在基金会报告中，“${lemma}”被标记为关键时间线信号。`,
+      en: `In Foundation records, "${lemma}" was logged as a key signal in the text.`,
+      zh: `在基金会记录中，“${lemma}”被记为文本中的关键信号。`,
     }),
     (lemma: string): ThemeExampleFallback => ({
-      en: `The Timekeeper recorded "${lemma}" before the rain anomaly intensified.`,
-      zh: `在雨灾异常加剧前，司辰记录下了“${lemma}”。`,
+      en: `The Timekeeper marked "${lemma}" when mapping the argument's turning point.`,
+      zh: `司辰在标注论证转折点时记下了“${lemma}”。`,
     }),
   ],
   adj: [
@@ -159,6 +203,17 @@ export const getThemeExampleFallback = (word: WordEntry, theme: ThemeId): ThemeE
   const templates = theme === "hp_slytherin" ? hpTemplates[bucket] : r99Templates[bucket];
   const idx = hashLemma(word.lemma) % templates.length;
   return templates[idx](word.lemma);
+};
+
+/** Theme sentence shown on cards: per-theme JSON first, then legacy single field, then generated fallback. */
+export const resolveThemeExampleSentence = (
+  word: WordEntry,
+  theme: ThemeId,
+): { en: string; zh?: string } => {
+  const fallback = getThemeExampleFallback(word, theme);
+  const en = word.themedExamples?.[theme] ?? word.enExampleTheme ?? fallback.en;
+  const zh = word.themedExamplesZh?.[theme] ?? word.zhExampleTheme ?? fallback.zh;
+  return { en, zh };
 };
 
 const getDaySeed = (input: Date) =>
