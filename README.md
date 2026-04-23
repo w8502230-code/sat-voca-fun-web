@@ -87,3 +87,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## GitHub Push Auto Deploy (Recommended)
+
+项目已添加 GitHub Actions 工作流：`/.github/workflows/vercel-deploy.yml`。  
+只要 push 到 `main`，GitHub 会自动构建并部署到 Vercel，不需要在公司网络手动执行 `vercel` 命令。
+
+### One-time setup (GitHub Secrets)
+
+在 GitHub 仓库 `Settings -> Secrets and variables -> Actions` 新增以下 3 个 secrets：
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+可在你网络可用时（如家庭网络）通过下面命令初始化一次：
+
+```bash
+npx vercel login
+npx vercel link
+```
+
+执行后会生成 `.vercel/project.json`，其中包含 `orgId` 和 `projectId`；将两者填入 GitHub secrets 即可。
