@@ -129,3 +129,8 @@ npx vercel link
 - 当前 household code
 
 页面同时提供常用 API 自检链接（theme/progress/daily-plan），用于快速确认部署是否可用。
+
+## Release SOP
+
+标准发布流程见 `docs/DEPLOY-SOP.md`。  
+每次发布前至少执行：`npm run lint` + `npm run smoke`。
