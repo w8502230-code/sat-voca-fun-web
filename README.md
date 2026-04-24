@@ -48,6 +48,15 @@ npm run dev
 - `public/`：静态资源、PWA 文件、主题资源
 - `scripts/`：词库导入/清洗/校验脚本
 
+## Theme 主题原图锁定
+
+为避免部署后素材漂移，Study 页主题图标固定使用以下两张原图（唯一来源）：
+
+- `public/themes/slytherin-crest.png`（Harry Potter / Slytherin）
+- `public/themes/reverse-1999.jpg`（Reverse:1999）
+
+对应映射定义在 `lib/theme-assets.ts`。若后续要替换主题图，请只替换这两个文件并保持文件名不变。
+
 ## 分支说明
 
 仓库当前主开发分支为 `main`。若你仍看到 `master`，请在 GitHub 仓库 `Settings -> Branches` 将默认分支切换为 `main` 后再删除旧分支。

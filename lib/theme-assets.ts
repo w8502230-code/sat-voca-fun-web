@@ -11,13 +11,14 @@ type ThemePublicAssets = {
 
 export const themePublicAssets: ThemePublicAssets = {
   hp_slytherin: {
-    studyMark: "/themes/slytherin-crest.svg",
-    fallbackStudyMark: "/themes/slytherin-crest.svg",
+    // Lock to user-provided original file.
+    studyMark: "/themes/slytherin-crest.png",
+    fallbackStudyMark: "/themes/slytherin-crest.png",
   },
   reverse_1999: {
-    // Use committed canonical asset to avoid preview/prod mismatch.
-    studyMark: "/themes/reverse-1999-sigil.svg",
-    fallbackStudyMark: "/themes/reverse-1999-sigil.svg",
+    // Lock to user-provided original file.
+    studyMark: "/themes/reverse-1999.jpg",
+    fallbackStudyMark: "/themes/reverse-1999.jpg",
   },
 };
 
