@@ -188,6 +188,7 @@ button:hover .mystic-btn-r99 {
   width: 60%;
   height: 100%;
   transform: skewX(-22deg);
+  pointer-events: none;
   opacity: 0;
   transition:
     left 420ms ease,
@@ -409,4 +410,93 @@ button:hover .mystic-btn-r99 {
   box-shadow:
     0 0 0 1px rgba(52, 211, 153, 0.2),
     0 0 14px rgba(251, 191, 36, 0.22);
+}
+
+.result-panel {
+  box-shadow:
+    inset 0 0 0 1px rgba(148, 163, 184, 0.08),
+    0 18px 32px rgba(2, 6, 23, 0.34);
+}
+
+@keyframes result-confetti-fall {
+  0% {
+    transform: translateY(-24px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.92;
+  }
+  100% {
+    transform: translateY(250px) rotate(320deg);
+    opacity: 0;
+  }
+}
+
+.result-confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.result-confetti span {
+  position: absolute;
+  top: -16px;
+  width: 8px;
+  height: 14px;
+  border-radius: 2px;
+  animation: result-confetti-fall 1.9s linear infinite;
+}
+
+.result-confetti span:nth-child(4n + 1) {
+  background: rgba(251, 191, 36, 0.9);
+}
+
+.result-confetti span:nth-child(4n + 2) {
+  background: rgba(52, 211, 153, 0.85);
+}
+
+.result-confetti span:nth-child(4n + 3) {
+  background: rgba(56, 189, 248, 0.86);
+}
+
+.result-confetti span:nth-child(4n) {
+  background: rgba(244, 114, 182, 0.86);
+}
+
+@keyframes result-snitch-fly {
+  0% {
+    transform: translateX(-20%) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateX(48vw) translateY(-22px) rotate(9deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(108vw) translateY(8px) rotate(-8deg);
+    opacity: 0;
+  }
+}
+
+.result-snitch-burst {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.result-snitch {
+  position: absolute;
+  left: -12%;
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.6));
+  animation: result-snitch-fly 6.2s ease-in-out infinite;
 }

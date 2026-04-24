@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { unstable_noStore as noStore } from "next/cache";
 
@@ -22,46 +23,108 @@ export default function ResultPage() {
   const wrongCount = getWrongLemmaCount(appConfig.householdCode, appConfig.learnerId);
 
   const accent = isHp ? "text-emerald-300" : "text-amber-300";
+  const showConfetti = progress.todayQuizAccuracy > 85;
+  const snitchMilestones = new Set(Array.from({ length: 14 }, (_, i) => (i + 1) * 200));
+  const showSnitchBurst = snitchMilestones.has(progress.cumulativeMasteredCount);
+  const snitchCount = progress.cumulativeMasteredCount >= 1000 ? 4 : 3;
 
   return (
     <main className="mx-auto min-h-screen w-full max-w-3xl px-5 py-10 sm:px-8">
-      <h1 className="text-2xl font-semibold text-slate-100">Progress Panel</h1>
-      <p className="mt-3 text-sm leading-7 text-slate-300">
-        Historical cumulative mastered count is defined as all-time mastered lemmas deduped by
-        lemma.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Household mode is active with code <span className="font-semibold">{appConfig.householdCode}</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Active theme: <span className={`font-semibold ${accent}`}>{themeMeta.shortName}</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Current imported word bank size: <span className="font-semibold">{totalWords}</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Today remembered count: <span className="font-semibold">{progress.todayLearnedCount}</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Daily 50-word plan completed today:{" "}
-        <span className="font-semibold">{progress.hasCompletedDailyPlanToday ? "Yes" : "No"}</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Cumulative mastered count: <span className="font-semibold">{progress.cumulativeMasteredCount}</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Today quiz score (correct / total):{" "}
-        <span className="font-semibold">
-          {progress.quizCorrectToday}/{progress.quizTotalToday}
-        </span>{" "}
-        → accuracy <span className="font-semibold">{progress.todayQuizAccuracy}%</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        {labels.pointsName} (today): <span className="font-semibold">{progress.todayIncentivePoints}</span>.
-      </p>
-      <p className="mt-2 text-sm leading-7 text-slate-300">
-        Current wrong-word pool: <span className="font-semibold">{wrongCount}</span>.
-      </p>
+      <section className="result-panel relative overflow-hidden rounded-2xl border border-slate-800/80 bg-slate-950/75 p-5 sm:p-6">
+        {showConfetti ? (
+          <div className="result-confetti" aria-hidden>
+            {Array.from({ length: 18 }).map((_, idx) => (
+              <span
+                key={`confetti-${idx}`}
+                style={{
+                  left: `${(idx * 11) % 100}%`,
+                  animationDelay: `${(idx % 6) * 0.15}s`,
+                  animationDuration: `${1.7 + (idx % 5) * 0.18}s`,
+                }}
+              />
+            ))}
+          </div>
+        ) : null}
+
+        {showSnitchBurst ? (
+          <div className="result-snitch-burst" aria-hidden>
+            {Array.from({ length: snitchCount }).map((_, idx) => (
+              <Image
+                key={`snitch-${idx}`}
+                src="/golden-snitch.png"
+                alt=""
+                width={96}
+                height={96}
+                className="result-snitch"
+                style={{
+                  top: `${14 + idx * 16}%`,
+                  animationDelay: `${idx * 0.33}s`,
+                  animationDuration: `${5.8 + idx * 0.6}s`,
+                }}
+                unoptimized
+              />
+            ))}
+          </div>
+        ) : null}
+
+        <div className="relative z-10">
+          <h1 className="text-2xl font-semibold text-slate-100">Progress Panel</h1>
+          <p className="mt-3 text-sm leading-7 text-slate-300">
+            Historical cumulative mastered count is defined as all-time mastered lemmas deduped by
+            lemma.
+          </p>
+          <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <article className="rounded-xl border border-slate-800/90 bg-slate-900/70 p-4">
+            <p className="text-xs uppercase tracking-wide text-slate-400">Household</p>
+            <p className="mt-1 text-base text-slate-100">
+              Code <span className="font-semibold">{appConfig.householdCode}</span>
+            </p>
+            <p className="mt-1 text-sm text-slate-400">
+              Active theme: <span className={`font-semibold ${accent}`}>{themeMeta.shortName}</span>
+            </p>
+          </article>
+          <article className="rounded-xl border border-slate-800/90 bg-slate-900/70 p-4">
+            <p className="text-xs uppercase tracking-wide text-slate-400">Word Bank</p>
+            <p className="mt-1 text-base text-slate-100">
+              Imported size <span className="font-semibold">{totalWords}</span>
+            </p>
+            <p className="mt-1 text-sm text-slate-400">
+              Cumulative mastered <span className="font-semibold text-slate-100">{progress.cumulativeMasteredCount}</span>
+            </p>
+          </article>
+          <article className="rounded-xl border border-slate-800/90 bg-slate-900/70 p-4">
+            <p className="text-xs uppercase tracking-wide text-slate-400">Today Study</p>
+            <p className="mt-1 text-base text-slate-100">
+              Remembered <span className="font-semibold">{progress.todayLearnedCount}</span>
+            </p>
+            <p className="mt-1 text-sm text-slate-400">
+              Daily 50-word plan <span className="font-semibold text-slate-100">{progress.hasCompletedDailyPlanToday ? "Completed" : "Not completed"}</span>
+            </p>
+          </article>
+          <article className="rounded-xl border border-slate-800/90 bg-slate-900/70 p-4">
+            <p className="text-xs uppercase tracking-wide text-slate-400">Today Quiz</p>
+            <p className="mt-1 text-base text-slate-100">
+              Score <span className="font-semibold">{progress.quizCorrectToday}/{progress.quizTotalToday}</span>
+            </p>
+            <p className="mt-1 text-sm text-slate-400">
+              Accuracy <span className={`font-semibold ${progress.todayQuizAccuracy > 85 ? "text-emerald-300" : "text-slate-100"}`}>{progress.todayQuizAccuracy}%</span>
+            </p>
+          </article>
+          <article className="rounded-xl border border-slate-800/90 bg-slate-900/70 p-4">
+            <p className="text-xs uppercase tracking-wide text-slate-400">Incentive</p>
+            <p className="mt-1 text-base text-slate-100">
+              {labels.pointsName} today <span className="font-semibold">{progress.todayIncentivePoints}</span>
+            </p>
+          </article>
+          <article className="rounded-xl border border-slate-800/90 bg-slate-900/70 p-4">
+            <p className="text-xs uppercase tracking-wide text-slate-400">Wrong-word Pool</p>
+            <p className="mt-1 text-base text-slate-100">
+              Current size <span className="font-semibold">{wrongCount}</span>
+            </p>
+          </article>
+          </div>
+        </div>
+      </section>
 
       <div className="mt-8 flex flex-wrap gap-3 border-t border-slate-800 pt-6">
         <Link

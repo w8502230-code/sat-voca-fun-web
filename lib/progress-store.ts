@@ -154,21 +154,6 @@ const rotatePick = <T,>(items: T[], count: number, seed: string) => {
   return output;
 };
 
-const deterministicShuffle = <T,>(items: T[], seedInput: string): T[] => {
-  const output = [...items];
-  let seed = hashString(seedInput) || 1;
-  const nextRand = () => {
-    seed = (seed * 1664525 + 1013904223) >>> 0;
-    return seed / 4294967296;
-  };
-
-  for (let i = output.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(nextRand() * (i + 1));
-    [output[i], output[j]] = [output[j], output[i]];
-  }
-  return output;
-};
-
 const ensureReviewTasksForDay = (progress: LearnerProgress, dayKey: string, lemmas: string[]) => {
   const uniqueLemmas = [...new Set(lemmas)];
   const intervals: Array<1 | 3 | 7> = [1, 3, 7];

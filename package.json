@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "smoke": "node scripts/smoke.mjs",
     "import:words": "node scripts/import-words-from-xlsx.mjs",
     "convert:words:txt": "node scripts/convert-txt-wordlists.mjs",
     "build:wordbank:base": "node scripts/build-wordbank-base.mjs",
@@ -15,8 +16,9 @@
     "refine:wordbank:retranslate": "node scripts/enrich-word-details.mjs --retranslate-only --input data/words-list-base.json --output data/words-list-base.json --cache data/imports/dictionary-cache-online.json --concurrency 4 --sleep-ms 80 --save-every 50",
     "enrich:theme-examples": "node scripts/enrich-theme-examples.mjs",
     "check:examples": "node scripts/check-examples.mjs",
+    "fix:placeholders": "node scripts/fix-placeholder-definitions.mjs",
     "verify:doubao": "node scripts/verify-doubao-json.mjs",
-    "apply:doubao": "node scripts/apply-doubao-overrides.mjs --input data/words-list-base.json --report data/imports/doubao-merge-report.txt \"../data/sample fm DOUBAO120.txt\" \"../data/sample fm DOUBAO220.txt\" \"../data/sample fm DOUBAO320.txt\" \"../data/sample fm DOUBAO420.txt\" \"../data/sample fm DOUBAO620.txt\" \"../data/sample fm DOUBAO 100.txt\" \"../data/sample fm DOUBAO 200.txt\" \"../data/sample fm DOUBAO 371.txt\" \"../data/sample fm DOUBAO 500.txt\" \"../data/sample fm DOUBAO 650.txt\" \"../data/sample fm DOUBAO 800.txt\" \"../data/sample fm DOUBAO 948.txt\" \"../data/sample fm DOUBAO 1090.txt\" \"../data/sample fm DOUBAO 1250.txt\" \"../data/sample fm DOUBAO 1400.txt\" \"../data/sample fm DOUBAO 1550.txt\" \"../data/sample fm DOUBAO 1717.txt\" \"../data/sample fm DOUBAO 1850.txt\" \"../data/sample fm DOUBAO 2000.txt\" \"../data/sample fm DOUBAO 2034.txt\" \"../data/gap161.txt\" \"../data/gap300.txt\" \"../data/gap363.txt\" \"../data/gap500.txt\" \"../data/gap650.txt\" \"../data/gap712.txt\" \"../data/gap733.txt\""
+    "apply:doubao": "node scripts/apply-doubao-overrides.mjs --input data/words-list-base.json --report data/imports/doubao-merge-report.txt \"../data/sample fm DOUBAO 100.txt\" \"../data/sample fm DOUBAO 200.txt\" \"../data/sample fm DOUBAO 371.txt\" \"../data/sample fm DOUBAO 500.txt\" \"../data/sample fm DOUBAO 650.txt\" \"../data/sample fm DOUBAO 800.txt\" \"../data/sample fm DOUBAO 948.txt\" \"../data/sample fm DOUBAO 1090.txt\" \"../data/sample fm DOUBAO 1250.txt\" \"../data/sample fm DOUBAO 1400.txt\" \"../data/sample fm DOUBAO 1550.txt\" \"../data/sample fm DOUBAO 1717.txt\" \"../data/sample fm DOUBAO 1850.txt\" \"../data/sample fm DOUBAO 2000.txt\" \"../data/sample fm DOUBAO 2034.txt\" \"../data/gap161.txt\" \"../data/gap300.txt\" \"../data/gap363.txt\" \"../data/gap500.txt\" \"../data/gap650.txt\" \"../data/gap712.txt\" \"../data/gap733.txt\""
   },
   "dependencies": {
     "@prisma/client": "^7.7.0",

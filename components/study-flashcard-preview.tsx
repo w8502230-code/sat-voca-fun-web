@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 
 import { formatClientApiError, getApiJsonHeaders } from "@/lib/api-client-headers";
@@ -226,26 +227,28 @@ export function StudyFlashcardPreview({
       />
 
       <div className="relative z-10 mb-3 flex items-center justify-end">
-        <img
+        <Image
           src={studyThemeMarkSrc}
           alt=""
           width={56}
           height={56}
           className={studyMarkImgLg}
           onError={() => setStudyThemeMarkSrc(fallbackStudyThemeMarkSrc)}
+          unoptimized
         />
       </div>
 
       <div className="relative z-10 mb-4 flex items-center justify-between">
         <div>
           <h2 className="flex items-center gap-2 text-lg font-semibold text-slate-100">
-            <img
+            <Image
               src={studyThemeMarkSrc}
               alt=""
               width={40}
               height={40}
               className={studyMarkImgSm}
               onError={() => setStudyThemeMarkSrc(fallbackStudyThemeMarkSrc)}
+              unoptimized
             />
             {currentTheme.missionLabel}
           </h2>

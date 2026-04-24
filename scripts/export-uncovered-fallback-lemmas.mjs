@@ -17,11 +17,6 @@ for (let i = 0; i < args.length; i += 1) {
 }
 
 const DOUBAO_FILES = [
-  "../data/sample fm DOUBAO120.txt",
-  "../data/sample fm DOUBAO220.txt",
-  "../data/sample fm DOUBAO320.txt",
-  "../data/sample fm DOUBAO420.txt",
-  "../data/sample fm DOUBAO620.txt",
   "../data/sample fm DOUBAO 100.txt",
   "../data/sample fm DOUBAO 200.txt",
   "../data/sample fm DOUBAO 371.txt",

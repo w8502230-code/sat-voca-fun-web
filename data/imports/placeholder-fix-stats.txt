@@ -1,0 +1,7 @@
+Total words in base: 2888
+Entries with placeholder en OR cn (before): 2649
+Manual overrides applied: 3
+enDef merged from cache: 1975
+cnDef merged from cache: 0
+Still need attention (see placeholder-definitions-still-needed.txt): 379
+enDef fixed but cnDef still missing (see placeholder-fix-en-only-needs-cn.txt): 1787

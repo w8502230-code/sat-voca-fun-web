@@ -9,11 +9,6 @@ const root = path.resolve(import.meta.dirname, "..");
 const jsonPath = path.resolve(root, "data", "words-list-base.json");
 
 const TXT_FILES = [
-  "../data/sample fm DOUBAO120.txt",
-  "../data/sample fm DOUBAO220.txt",
-  "../data/sample fm DOUBAO320.txt",
-  "../data/sample fm DOUBAO420.txt",
-  "../data/sample fm DOUBAO620.txt",
   "../data/sample fm DOUBAO 100.txt",
   "../data/sample fm DOUBAO 200.txt",
   "../data/sample fm DOUBAO 371.txt",

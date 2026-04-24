@@ -9,3 +9,14 @@ export function getApiJsonHeaders(): HeadersInit {
   }
   return headers;
 }
+
+/** Safe string for `setState` from Route Handler `{ error: string | object }` bodies. */
+export function formatClientApiError(error: unknown, fallback: string): string {
+  if (error == null) return fallback;
+  if (typeof error === "string") return error;
+  try {
+    return JSON.stringify(error);
+  } catch {
+    return fallback;
+  }
+}

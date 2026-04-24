@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 
 import { StudyFlashcardPreview } from "@/components/study-flashcard-preview";
-import { getApiJsonHeaders } from "@/lib/api-client-headers";
+import { formatClientApiError, getApiJsonHeaders } from "@/lib/api-client-headers";
 import type { ThemeId } from "@/lib/theme";
 import type { WordEntry } from "@/lib/word-bank";
 
@@ -13,9 +13,16 @@ type Props = {
   theme: ThemeId;
   householdCode: string;
   learnerId: string;
+  productionMissingClientSecret?: boolean;
 };
 
-export function StudyBatchMission({ batches, theme, householdCode, learnerId }: Props) {
+export function StudyBatchMission({
+  batches,
+  theme,
+  householdCode,
+  learnerId,
+  productionMissingClientSecret = false,
+}: Props) {
   const isDev = process.env.NODE_ENV !== "production";
   const [batchIndex, setBatchIndex] = useState(0);
   const [completedBatches, setCompletedBatches] = useState<Record<number, boolean>>({});
@@ -25,6 +32,7 @@ export function StudyBatchMission({ batches, theme, householdCode, learnerId }: 
   const batchCount = batches.length;
   const currentBatch = batches[batchIndex] ?? [];
   const isCurrentBatchCompleted = Boolean(completedBatches[batchIndex]);
+  const isLastBatch = batchCount > 0 && batchIndex >= batchCount - 1;
   const allCompleted = useMemo(
     () => batchCount > 0 && Object.keys(completedBatches).length >= batchCount,
     [batchCount, completedBatches],
@@ -49,8 +57,10 @@ export function StudyBatchMission({ batches, theme, householdCode, learnerId }: 
           }),
         });
         if (!response.ok) {
-          const err = (await response.json().catch(() => null)) as { error?: string } | null;
-          setCompletionHint(err?.error ?? "Dev daily quick-complete failed.");
+          const err = (await response.json().catch(() => null)) as { error?: unknown } | null;
+          setCompletionHint(
+            formatClientApiError(err?.error, "Dev daily quick-complete failed."),
+          );
           return;
         }
       }
@@ -83,6 +93,17 @@ export function StudyBatchMission({ batches, theme, householdCode, learnerId }: 
 
   return (
     <section className="mt-6">
+      {productionMissingClientSecret ? (
+        <div
+          role="alert"
+          className="mb-4 rounded-xl border border-rose-500/60 bg-rose-950/50 px-4 py-3 text-sm text-rose-100"
+        >
+          线上环境未配置 <code className="rounded bg-rose-900/50 px-1.5 py-0.5 text-xs">NEXT_PUBLIC_APP_SECRET</code>{" "}
+          或与服务器 <code className="rounded bg-rose-900/50 px-1.5 py-0.5 text-xs">APP_SECRET</code> 不一致。浏览器无法带上{" "}
+          <code className="rounded bg-rose-900/50 px-1.5 py-0.5 text-xs">x-app-secret</code>，词卡「记住 / 忘记」保存会失败。请在
+          托管平台将两者设为同一值并重新部署。
+        </div>
+      ) : null}
       <div className="rounded-xl border border-slate-800 bg-slate-900/70 p-4 sm:p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="text-sm text-slate-200">
@@ -123,19 +144,33 @@ export function StudyBatchMission({ batches, theme, householdCode, learnerId }: 
         >
           Previous Batch
         </button>
-        <button
-          type="button"
-          onClick={() => setBatchIndex((prev) => Math.min(prev + 1, batchCount - 1))}
-          disabled={batchIndex >= batchCount - 1 || !isCurrentBatchCompleted}
-          className="rounded-lg border border-emerald-700/60 bg-emerald-900/35 px-4 py-2 text-sm font-medium text-emerald-100 transition hover:border-emerald-400 disabled:cursor-not-allowed disabled:border-slate-600 disabled:bg-slate-800/70 disabled:text-slate-300 disabled:opacity-100"
-        >
-          Next Batch
-        </button>
+        {isLastBatch && isCurrentBatchCompleted ? (
+          <Link
+            href={`/quiz?scope=batch&batch=${batchIndex + 1}`}
+            className="inline-flex items-center justify-center rounded-lg border border-emerald-500/70 bg-emerald-900/40 px-4 py-2 text-sm font-semibold text-emerald-100 transition hover:border-emerald-300"
+          >
+            Start Batch Quiz
+          </Link>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setBatchIndex((prev) => Math.min(prev + 1, batchCount - 1))}
+            disabled={isLastBatch || !isCurrentBatchCompleted}
+            title={
+              !isCurrentBatchCompleted
+                ? "Mark every word in this batch (Remember / Forgot) to continue"
+                : undefined
+            }
+            className="rounded-lg border border-emerald-700/60 bg-emerald-900/35 px-4 py-2 text-sm font-medium text-emerald-100 transition hover:border-emerald-400 disabled:cursor-not-allowed disabled:border-slate-600 disabled:bg-slate-800/70 disabled:text-slate-400 disabled:opacity-50"
+          >
+            Next Batch
+          </button>
+        )}
         <Link
-          href={isCurrentBatchCompleted ? `/quiz?scope=batch&batch=${batchIndex + 1}` : "/"}
+          href="/"
           className="inline-flex items-center justify-center rounded-lg border border-slate-700 bg-slate-900/80 px-4 py-2 text-sm text-slate-200 transition hover:border-slate-500"
         >
-          {isCurrentBatchCompleted ? "Start Batch Quiz" : "Back to Homepage"}
+          Back to Home
         </Link>
       </div>
 

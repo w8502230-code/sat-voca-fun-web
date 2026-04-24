@@ -11,6 +11,8 @@ export default function StudyPage() {
   const theme = getThemeByDate(now);
   const themeMeta = themeDetails[theme];
   const batches = getStudyBatches(now);
+  const productionMissingClientSecret =
+    process.env.NODE_ENV === "production" && !process.env.NEXT_PUBLIC_APP_SECRET;
 
   return (
     <main className="mx-auto min-h-screen w-full max-w-3xl px-5 py-10 sm:px-8">
@@ -31,6 +33,7 @@ export default function StudyPage() {
         theme={theme}
         householdCode={appConfig.householdCode}
         learnerId={appConfig.learnerId}
+        productionMissingClientSecret={productionMissingClientSecret}
       />
     </main>
   );

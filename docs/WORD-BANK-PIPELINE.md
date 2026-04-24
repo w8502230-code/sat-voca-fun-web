@@ -24,7 +24,7 @@ Blank line between entries. Later files **overwrite** the same `lemma` (see `pac
 |--------|---------|
 | `npm run apply:doubao` | Merge all configured `sample fm DOUBAO*.txt` and `gap*.txt` into `data/words-list-base.json` (five fields only). Writes `data/imports/doubao-merge-report.txt`. |
 | `npm run verify:doubao` | Assert JSON matches the merged txt set field-for-field; exits non-zero if drift or if any row still uses the generic SAT phrase `appears frequently in SAT-style academic contexts`. |
-| `npm run check:examples` | Quality report → `data/example-quality-report.json`. Use `-- --input data/words-list-base.json --strict-theme` to require themed EN lines. |
+| `npm run check:examples` | Quality report → `data/example-quality-report.json`. Use `-- --input data/words-list-base.json --strict-theme` only for content QA scenarios that still require themed EN lines. End-user Study UI currently renders SAT examples only. |
 
 ## Operational notes
 
